@@ -1,7 +1,7 @@
 # Awesome Scientific Figure
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![star](https://img.shields.io/github/stars/nehSgnaiL/awesome-scientific-figure?style=social)](https://github.com/nehSgnaiL/awesome-scientific-figure/stargazers)
-[![fork](https://img.shields.io/github/forks/nehSgnaiL/awesome-scientific-figure?style=social)](https://github.com/nehSgnaiL/awesome-scientific-figure/network/members) 
+[![star](https://img.shields.io/github/stars/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/stargazers)
+[![fork](https://img.shields.io/github/forks/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/network/members) 
 
 A curated list of scientific figures in research papers.
 
