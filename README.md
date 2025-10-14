@@ -8,6 +8,13 @@ A curated list of scientific figures in research papers.
 ## Contributing
 Pull requests are welcome, please feel free to raise [pull requests](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls) to add new recommendation.
 
+## Table of Contents
+- [Geographic map](#geographic-map)
+- [Combination Fig](#combination-fig)
+- [Scatter](#scatter)
+- [Boxplot](#boxplot)
+- [Other publications](#other-publications)
+- [Classical](#classical)
 
 ## Geographic map
 
