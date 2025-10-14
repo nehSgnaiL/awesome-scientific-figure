@@ -1,5 +1,5 @@
 # Awesome Scientific Figure
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls)
 [![star](https://img.shields.io/github/stars/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/stargazers)
 [![fork](https://img.shields.io/github/forks/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/network/members) 
 
@@ -38,6 +38,8 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 | <img alt="Fig. 1" src="./figures/scatter/41567_2010_Article_BFnphys1760_Fig1_HTML.webp" width="1000"> | Song, C., Koren, T., Wang, P., & Barabási, A. L. (2010). Modelling the scaling properties of human mobility. *Nature Physics*, 6(10), 818-823.                      | [[paper]](https://doi.org/10.1038/nphys1760)       | `fit` |
 | <img alt="Fig. 4" src="./figures/scatter/324_1071_f4.jpeg" width="1000">                              | Wang, P., González, M. C., Hidalgo, C. A., & Barabási, A. L. (2009). Understanding the spreading patterns of mobile phone viruses. *Science*, 324(5930), 1071-1076. | [[paper]](https://doi.org/10.1126/science.1167053) | `fit` | <sub><sup>#375294</sup></sub>![#375294](https://placehold.co/20x20/375294/375294.svg)<br/><sub><sup>#D93431</sup></sub>![#D93431](https://placehold.co/20x20/D93431/D93431.svg)<br/><sub><sup>#1F7E46</sup></sub>![#1F7E46](https://placehold.co/20x20/1F7E46/1F7E46.svg) |
 | <img alt="Fig. 2" src="./figures/scatter/1-s2.0-S2667325825001943-gr2_lrg.jpg" width="1000">                              | Ibrahim, M. M., & Hou, E. (2025). Soil phosphorus regulates summer CO2 flux response to air temperature in nitrogen-poor northern permafrost ecosystems. *Fundamental Research*. | [[paper]](https://doi.org/10.1016/j.fmre.2025.04.005) | `fit` | <sub><sup>#00CBD2</sup></sub>![#00CBD2](https://placehold.co/20x20/00CBD2/00CBD2.svg)<br/><sub><sup>#FFAA01</sup></sub>![#D93431](https://placehold.co/20x20/FFAA01/FFAA01.svg)<br/> |
+| <img alt="Fig. 3" src="https://raw.githubusercontent.com/nehSgnaiL/GeoTopo-Net/refs/heads/main/img/Fig3.png" width="1000">                              | Liang, S., Xu, Y., Li, G., Zhang, X., & Li, Q. (2026). Predicting short-term urban bike sharing demand in a coupled continuous and network space. *Travel Behaviour and Society*, 42, 101152.
+ | [[paper]](https://doi.org/10.1016/j.tbs.2025.101152) | `trend` | <sub><sup>#1dbde6</sup></sub>![#1dbde6](https://placehold.co/20x20/1dbde6/1dbde6.svg)<br/><sub><sup>#f1515e</sup></sub>![#f1515e](https://placehold.co/20x20/f1515e/f1515e.svg)<br/> |
 
 ## Boxplot
 
