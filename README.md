@@ -11,7 +11,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ## Geographic map
 
-### Figure 11
+### 2021-Xu-Tour Manag
 <img alt="Fig. 11" src="./figures/geomap/1-s2.0-S0261517720301217-gr11_lrg.jpg" width="1000">
 
 <details>
@@ -29,7 +29,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 10
+### 2021-Xu-Ann AAG
 <img alt="Fig. 10" src="./figures/geomap/raag_a_1812372_f0010_c.jpeg" width="1000">
 
 <details>
@@ -47,7 +47,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 1
+### 2016-Jiang-PNAS
 <img alt="Fig. 1" src="./figures/geomap/pnas.1524261113fig01.jpeg" width="1000">
 
 <details>
@@ -65,7 +65,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 2
+### 2019-Xu-CEUS
 <img alt="Fig. 2" src="./figures/geomap/1-s2.0-S0198971518305192-gr2_lrg.jpg" width="1000">
 
 <details>
@@ -85,7 +85,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ## Combination Fig
 
-### Figure 1
+### 2020-Gibbs-Nat Commun
 <img alt="Fig. 1" src="./figures/combination/41467_2020_18783_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -103,7 +103,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 3
+### 2022-Yabe-CEUS
 <img alt="Fig. 3" src="./figures/combination/1-s2.0-S0198971522000217-gr3_lrg.jpg" width="1000">
 
 <details>
@@ -121,7 +121,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 1 & 4
+### 2022-Tegally-Science
 <img alt="Fig. 1" src="./figures/combination/science.abq5358-f1.jpg" width="1000">
 <img alt="Fig. 4" src="./figures/combination/science.abq5358-f4.jpg" width="1000">
 
@@ -142,7 +142,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 1
+### 2019-Yin-Nature
 <img alt="Fig. 1" src="./figures/combination/41586_2019_1725_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -162,7 +162,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 1
+### 2020-Alessandretti-Nature
 <img alt="Fig. 1" src="./figures/combination/41586_2020_2909_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -180,7 +180,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 1
+### 2022-Ren-Tour Manag
 <img alt="Fig. 1" src="./figures/combination/1-s2.0-S0261517722000462-gr1_lrg.jpg" width="1000">
 
 <details>
@@ -196,7 +196,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 9
+### 2025-Chen-Cities
 <img alt="Fig. 9" src="./figures/combination/1-s2.0-S0264275125005426-gr9_lrg.jpg" width="1000">
 
 <details>
@@ -212,7 +212,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 1
+### 2025-Cui-NC
 <img alt="Fig. 1" src="./figures/combination/41467_2025_61979_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -230,7 +230,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ## Scatter
 
-### Figure 1
+### 2010-Song-Nat Phys
 <img alt="Fig. 1" src="./figures/scatter/41567_2010_Article_BFnphys1760_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -246,7 +246,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 4
+### 2009-Wang-Science
 <img alt="Fig. 4" src="./figures/scatter/324_1071_f4.jpeg" width="1000">
 
 <details>
@@ -264,7 +264,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 2
+### 2025-Ibrahim-Fundam Res
 <img alt="Fig. 2" src="./figures/scatter/1-s2.0-S2667325825001943-gr2_lrg.jpg" width="1000">
 
 <details>
@@ -282,7 +282,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 3
+### 2026-Liang-Travel Behav Soc
 <img alt="Fig. 3" src="https://raw.githubusercontent.com/nehSgnaiL/GeoTopo-Net/refs/heads/main/img/Fig3.png" width="1000">
 
 <details>
@@ -302,7 +302,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ## Boxplot
 
-### Figure 5
+### 2022-Xu-CEUS
 <img alt="Fig. 5" src="./figures/boxplot/1-s2.0-S0198971521001605-gr5_lrg.jpg" width="1000">
 
 <details>
@@ -320,7 +320,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 2
+### 2022-Jin-Emerg Microbes Infect
 <img alt="Fig. 2" src="./figures/boxplot/temi_a_2155251_f0002_oc.jpeg" width="1000">
 
 <details>
@@ -341,7 +341,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ## Other publications
 
-### Map showing carbon dioxide emissions by ships in 2015
+### 2019-Raval-FT
 <img alt="Map showing carbon dioxide emissions by ships in 2015" src="./figures/others/http___com.ft.imagepublish.upp-prod-eu.s3.amazonaws.avif" width="1000">
 
 <details>
@@ -357,7 +357,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Elon Musk's transformation
+### 2024-ElonMusk-Economist
 <img alt="Map showing carbon dioxide emissions by ships in 2015" src="./figures/others/Qccfa.jpg" width="1000">
 
 <details>
@@ -375,7 +375,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ## Classical
 
-### Figure 11
+### 2012-Fang-J Transp Geog
 <img alt="Fig. 11" src="./figures/geomap/1-s2.0-S0966692312000816-gr11.jpg" width="1000">
 
 <details>
@@ -391,7 +391,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 9
+### 2015-Alexander-Transp Res
 <img alt="Fig. 9" src="./figures/geomap/1-s2.0-S0968090X1500073X-gr9.jpg" width="1000">
 
 <details>
@@ -407,7 +407,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### Figure 5
+### 2017-Xu-J R Soc Interface
 <img alt="Fig. 5" src="./figures/combination/rsif20161041f05.jpg" width="1000">
 
 <details>
