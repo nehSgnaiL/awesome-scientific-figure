@@ -364,7 +364,7 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 
 ---
 
-### 2024-ElonMusk-Economist
+### 2024-News Media Organization-Economist
 <img alt="Map showing carbon dioxide emissions by ships in 2015" src="./figures/others/Qccfa.jpg" width="1000">
 
 <details>
@@ -379,6 +379,23 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 </details>
 
 ---
+
+### 2022-Max Roser-Our World in Data
+<img alt="humanity today and humanity's past" src="./figures/others/w=850.avif" width="1000">
+
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation:** Max Roser. (2022). The future is vast – what does this mean for our own life? *Our World in Data*
+
+**Link:** [[article in open project]](https://ourworldindata.org/the-future-is-vast)
+
+**Tag:** `quantitative`
+
+</details>
+
+---
+
 
 ## Classical
 
