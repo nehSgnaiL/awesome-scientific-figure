@@ -2,21 +2,34 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls)
 [![star](https://img.shields.io/github/stars/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/stargazers)
 [![fork](https://img.shields.io/github/forks/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/network/members) 
+[![Last Update](https://img.shields.io/github/last-commit/nehSgnaiL/awesome-scientific-figure?label=Last%20update&style=classic)](https://github.com/nehSgnaiL/awesome-scientific-figure)
 
 A curated list of scientific figures in research papers.
 
-## Contributing
+## 🚀 Why Awesome Scientific Figures Collection?
+
+Scientific figures are key to communicating research, yet strong examples are scattered and hard to find.
+
+This collection brings together well-designed figures from published papers to:
+- 💡 **Learn** by seeing how complex ideas are visualized
+- 📚 **Explore** diverse figure types (e.g., maps, composites)
+- 🌍 **Discover** cross-disciplinary styles and practices
+- ⚡ **Inspire** your papers, slides, and projects
+- 🤝 **Contribute** to a growing, community-driven collection
+
+
+## 🤝 Contributing
 Pull requests are welcome, please feel free to raise [pull requests](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls) to add new recommendation.
 
-## Table of Contents
-- [Geographic map](#geographic-map)
+## 📋 Table of Contents
+- [Geographical map](#geographic-map)
 - [Combination Fig](#combination-fig)
 - [Scatter](#scatter)
 - [Boxplot](#boxplot)
 - [Other publications](#other-publications)
 - [Classical](#classical)
 
-## Geographic map
+## Geographical map
 
 ### 2021-Xu-Tour Manag
 <img alt="Fig. 11" src="./figures/geomap/1-s2.0-S0261517720301217-gr11_lrg.jpg" width="1000">
@@ -230,6 +243,24 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 **Link:** [[paper]](https://doi.org/10.1038/s41467-025-61979-5)
 
 **Tag:** `process`
+
+</details>
+
+---
+
+---
+
+### 2026-Li-Nature
+<img alt="Fig. 3" src="./figures/combination/41586_2026_10260_Fig3_HTML.webp" width="1000">
+
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation (APA):** Li, T., Wang, Z., Kyba, C., Román, M. O., Seto, K. C., Yang, Y., ... & Zhu, Z. (2026). Satellite imagery reveals increasing volatility in human night-time activity. *Nature*, 652(8109), 379-386.
+
+**Link:** [[paper]](https://doi.org/10.1038/s41586-026-10260-w)
+
+**Tag:** `bivariate`
 
 </details>
 
