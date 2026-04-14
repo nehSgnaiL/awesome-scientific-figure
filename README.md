@@ -6,22 +6,14 @@
 
 A curated list of scientific figures in research papers.
 
-## 🚀 Why Awesome Scientific Figures Collection?
+## 🚀 Why Awesome Scientific Figures?
+Scientific figures are essential to communicating research, yet strong examples are scattered and hard to find. This collection gathers outstanding figures to:
 
-Scientific figures are key to communicating research, yet strong examples are scattered and hard to find.
+- 💡 **Learn visualization** of how complex ideas are presented
+- 🌍 **Explore styles** across different figure types and disciplinary practices
+- ⚡ **Inspire work** e.g., papers, slides, and projects
 
-This collection brings together well-designed figures from published papers to:
-- 💡 **Learn** by seeing how complex ideas are visualized
-- 📚 **Explore** diverse figure types (e.g., maps, composites)
-- 🌍 **Discover** cross-disciplinary styles and practices
-- ⚡ **Inspire** your papers, slides, and projects
-- 🤝 **Contribute** to a growing, community-driven collection
-
-
-## 🤝 Contributing
-Pull requests are welcome, please feel free to raise [pull requests](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls) to add new recommendation.
-
-## 📋 Table of Contents
+## Table of Contents
 - [Geographical map](#geographic-map)
 - [Combination Fig](#combination-fig)
 - [Scatter](#scatter)
@@ -477,3 +469,6 @@ Pull requests are welcome, please feel free to raise [pull requests](https://git
 **Color:** <sub><sup>#359C7D</sup></sub>![#359C7D](https://placehold.co/20x20/359C7D/359C7D.svg) <sub><sup>#D15F2E</sup></sub>![#D15F2E](https://placehold.co/20x20/D15F2E/D15F2E.svg) <sub><sup>#6E72A6</sup></sub>![#6E72A6](https://placehold.co/20x20/6E72A6/6E72A6.svg)
 
 </details>
+
+## Contributing
+Pull requests are welcome, please feel free to raise [pull requests](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls) to add new recommendation.
