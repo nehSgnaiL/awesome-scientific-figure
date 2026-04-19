@@ -471,4 +471,4 @@ Scientific figures are essential for communicating research, yet strong examples
 </details>
 
 ## Contributing
-Pull requests are welcome, please feel free to raise [pull requests](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls) to add new recommendation.
+Pull requests are welcome. Please feel free to raise [pull requests](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls) to add new recommendations.
