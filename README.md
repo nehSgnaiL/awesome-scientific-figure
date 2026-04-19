@@ -6,12 +6,12 @@
 
 A curated list of scientific figures in research papers.
 
-## 🚀 Why Awesome Scientific Figures?
-Scientific figures are essential to communicating research, yet strong examples are scattered and hard to find. This collection gathers outstanding figures to:
+## Why Awesome Scientific Figures?
+Scientific figures are essential for communicating research, yet strong examples are scarce and hard to find. This collection gathers outstanding figures to:
 
-- 💡 **Learn visualization** of how complex ideas are presented
-- 🌍 **Explore styles** across different figure types and disciplinary practices
-- ⚡ **Inspire work** e.g., papers, slides, and projects
+- **Learn visualization** of how complex ideas are presented
+- **Explore styles** across different figure types and disciplinary practices
+- **Inspire work** e.g., papers, slides, and projects
 
 ## Table of Contents
 - [Geographical map](#geographic-map)
