@@ -240,8 +240,6 @@ Scientific figures are essential to communicating research, yet strong examples 
 
 ---
 
----
-
 ### 2026-Li-Nature
 <img alt="Fig. 3" src="./figures/combination/41586_2026_10260_Fig3_HTML.webp" width="1000">
 
@@ -253,6 +251,22 @@ Scientific figures are essential to communicating research, yet strong examples 
 **Link:** [[paper]](https://doi.org/10.1038/s41586-026-10260-w)
 
 **Tag:** `bivariate`
+
+</details>
+
+---
+
+### 2026-Yang-arXiv
+<img alt="Fig. 3" src="./figures/combination/x3.png" width="1000">
+
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation (APA):** Yang, J., Huang, S., Huang, Z., Jin, Y., Yang, X., Gonzalez, M. C., & Xu, Y. (2026). Transferable Human Mobility Network Reconstruction with neuroGravity. https://arxiv.org/abs/2604.23678
+
+**Link:** [[paper]](https://arxiv.org/abs/2604.23678v1)
+
+**Tag:** `distribution`
 
 </details>
 
