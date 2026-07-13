@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="448" height="24" viewBox="0 0 448 24" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="24" viewBox="0 0 336 24" role="img" aria-labelledby="title">
   <title id="title">2022-Tegally-Science color palette: #FDAE61, #FFFFBF, #ACDDA5, #2E84BC, #EE6AA6, #BEBEBE, #189E78, #DA5F00, #7570B3, #E7288A, #66A51E, #E5AA05, #A6751D, #666666</title>
-  <rect x="0" y="0" width="32" height="24" fill="#FDAE61" stroke="#d0d7de"/>
-  <rect x="32" y="0" width="32" height="24" fill="#FFFFBF" stroke="#d0d7de"/>
-  <rect x="64" y="0" width="32" height="24" fill="#ACDDA5" stroke="#d0d7de"/>
-  <rect x="96" y="0" width="32" height="24" fill="#2E84BC" stroke="#d0d7de"/>
-  <rect x="128" y="0" width="32" height="24" fill="#EE6AA6" stroke="#d0d7de"/>
-  <rect x="160" y="0" width="32" height="24" fill="#BEBEBE" stroke="#d0d7de"/>
-  <rect x="192" y="0" width="32" height="24" fill="#189E78" stroke="#d0d7de"/>
-  <rect x="224" y="0" width="32" height="24" fill="#DA5F00" stroke="#d0d7de"/>
-  <rect x="256" y="0" width="32" height="24" fill="#7570B3" stroke="#d0d7de"/>
-  <rect x="288" y="0" width="32" height="24" fill="#E7288A" stroke="#d0d7de"/>
-  <rect x="320" y="0" width="32" height="24" fill="#66A51E" stroke="#d0d7de"/>
-  <rect x="352" y="0" width="32" height="24" fill="#E5AA05" stroke="#d0d7de"/>
-  <rect x="384" y="0" width="32" height="24" fill="#A6751D" stroke="#d0d7de"/>
-  <rect x="416" y="0" width="32" height="24" fill="#666666" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#FDAE61" stroke="#d0d7de"/>
+  <rect x="24" y="0" width="24" height="24" fill="#FFFFBF" stroke="#d0d7de"/>
+  <rect x="48" y="0" width="24" height="24" fill="#ACDDA5" stroke="#d0d7de"/>
+  <rect x="72" y="0" width="24" height="24" fill="#2E84BC" stroke="#d0d7de"/>
+  <rect x="96" y="0" width="24" height="24" fill="#EE6AA6" stroke="#d0d7de"/>
+  <rect x="120" y="0" width="24" height="24" fill="#BEBEBE" stroke="#d0d7de"/>
+  <rect x="144" y="0" width="24" height="24" fill="#189E78" stroke="#d0d7de"/>
+  <rect x="168" y="0" width="24" height="24" fill="#DA5F00" stroke="#d0d7de"/>
+  <rect x="192" y="0" width="24" height="24" fill="#7570B3" stroke="#d0d7de"/>
+  <rect x="216" y="0" width="24" height="24" fill="#E7288A" stroke="#d0d7de"/>
+  <rect x="240" y="0" width="24" height="24" fill="#66A51E" stroke="#d0d7de"/>
+  <rect x="264" y="0" width="24" height="24" fill="#E5AA05" stroke="#d0d7de"/>
+  <rect x="288" y="0" width="24" height="24" fill="#A6751D" stroke="#d0d7de"/>
+  <rect x="312" y="0" width="24" height="24" fill="#666666" stroke="#d0d7de"/>
 </svg>

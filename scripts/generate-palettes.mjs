@@ -24,11 +24,11 @@ function escapeXml(value) {
 }
 
 function renderSvg(title, colors) {
-  const swatchWidth = 32;
-  const height = 24;
-  const width = swatchWidth * colors.length;
+  const swatchSize = 24;
+  const height = swatchSize;
+  const width = swatchSize * colors.length;
   const rectangles = colors.map((color, index) =>
-    `  <rect x="${index * swatchWidth}" y="0" width="${swatchWidth}" height="${height}" fill="${color}" stroke="#d0d7de"/>`,
+    `  <rect x="${index * swatchSize}" y="0" width="${swatchSize}" height="${swatchSize}" fill="${color}" stroke="#d0d7de"/>`,
   ).join("\n");
 
   return [
@@ -66,7 +66,7 @@ const updated = original.replace(entryPattern, (entry, _whole, title) => {
   const filename = `${slug}.svg`;
   palettes.set(filename, renderSvg(title, colors));
 
-  const width = colors.length * 32;
+  const width = colors.length * 24;
   const replacement = [
     `**Color:** ${colors.map((color) => `\`${color}\``).join(" ")}`,
     "",

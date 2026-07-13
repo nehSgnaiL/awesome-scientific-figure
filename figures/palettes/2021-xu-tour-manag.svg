@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="224" height="24" viewBox="0 0 224 24" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="24" viewBox="0 0 168 24" role="img" aria-labelledby="title">
   <title id="title">2021-Xu-Tour Manag color palette: #2A4291, #F8CA13, #C00005, #64C9EA, #58AF63, #E98A02, #DE24CE</title>
-  <rect x="0" y="0" width="32" height="24" fill="#2A4291" stroke="#d0d7de"/>
-  <rect x="32" y="0" width="32" height="24" fill="#F8CA13" stroke="#d0d7de"/>
-  <rect x="64" y="0" width="32" height="24" fill="#C00005" stroke="#d0d7de"/>
-  <rect x="96" y="0" width="32" height="24" fill="#64C9EA" stroke="#d0d7de"/>
-  <rect x="128" y="0" width="32" height="24" fill="#58AF63" stroke="#d0d7de"/>
-  <rect x="160" y="0" width="32" height="24" fill="#E98A02" stroke="#d0d7de"/>
-  <rect x="192" y="0" width="32" height="24" fill="#DE24CE" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#2A4291" stroke="#d0d7de"/>
+  <rect x="24" y="0" width="24" height="24" fill="#F8CA13" stroke="#d0d7de"/>
+  <rect x="48" y="0" width="24" height="24" fill="#C00005" stroke="#d0d7de"/>
+  <rect x="72" y="0" width="24" height="24" fill="#64C9EA" stroke="#d0d7de"/>
+  <rect x="96" y="0" width="24" height="24" fill="#58AF63" stroke="#d0d7de"/>
+  <rect x="120" y="0" width="24" height="24" fill="#E98A02" stroke="#d0d7de"/>
+  <rect x="144" y="0" width="24" height="24" fill="#DE24CE" stroke="#d0d7de"/>
 </svg>

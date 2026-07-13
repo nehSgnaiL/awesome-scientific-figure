@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="24" viewBox="0 0 128 24" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="24" viewBox="0 0 96 24" role="img" aria-labelledby="title">
   <title id="title">2020-Alessandretti-Nature color palette: #2177B5, #FF800E, #2BA02B, #D72927</title>
-  <rect x="0" y="0" width="32" height="24" fill="#2177B5" stroke="#d0d7de"/>
-  <rect x="32" y="0" width="32" height="24" fill="#FF800E" stroke="#d0d7de"/>
-  <rect x="64" y="0" width="32" height="24" fill="#2BA02B" stroke="#d0d7de"/>
-  <rect x="96" y="0" width="32" height="24" fill="#D72927" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#2177B5" stroke="#d0d7de"/>
+  <rect x="24" y="0" width="24" height="24" fill="#FF800E" stroke="#d0d7de"/>
+  <rect x="48" y="0" width="24" height="24" fill="#2BA02B" stroke="#d0d7de"/>
+  <rect x="72" y="0" width="24" height="24" fill="#D72927" stroke="#d0d7de"/>
 </svg>
