@@ -4,10 +4,10 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const readmePath = path.join(root, "README.md");
 const readme = fs.readFileSync(readmePath, "utf8");
-const errors = [];
-const warnings = [];
+const errors: string[] = [];
+const warnings: string[] = [];
 
-function githubSlug(value) {
+function githubSlug(value: string): string {
   return value
     .trim()
     .toLowerCase()
@@ -23,7 +23,7 @@ for (const match of readme.matchAll(/\[[^\]]+\]\(#([^)]+)\)/g)) {
   if (!headings.has(match[1])) errors.push(`Broken README anchor: #${match[1]}`);
 }
 
-const localImages = new Set();
+const localImages = new Set<string>();
 const imagePatterns = [
   /<img\b[^>]*\bsrc="([^"]+)"[^>]*>/g,
   /!\[[^\]]*\]\(([^)]+)\)/g,

@@ -30,9 +30,9 @@ jobs:
         with:
           node-version: 22
       - name: Generate palette strips in the check workspace
-        run: node auto/generate-palettes.mjs
+        run: node auto/generate-palettes.ts
       - name: Validate the generated README and assets
-        run: node auto/validate-readme.mjs
+        run: node auto/validate-readme.ts
 
   sync:
     if: github.event_name != 'pull_request'
@@ -45,9 +45,9 @@ jobs:
         with:
           node-version: 22
       - name: Generate palette strips and remove obsolete assets
-        run: node auto/generate-palettes.mjs
+        run: node auto/generate-palettes.ts
       - name: Validate the generated README and assets
-        run: node auto/validate-readme.mjs
+        run: node auto/validate-readme.ts
       - name: Commit generated palette changes
         shell: bash
         run: |

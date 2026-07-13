@@ -7,24 +7,25 @@ const readmePath = path.join(root, "README.md");
 const paletteDir = path.join(root, "auto", "palettes");
 const check = process.argv.includes("--check");
 
-function slugify(value) {
+function slugify(value: string): string {
   return value
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 }
 
-function escapeXml(value) {
-  return value.replace(/[&<>"']/g, (character) => ({
+function escapeXml(value: string): string {
+  const entities: Record<string, string> = {
     "&": "&amp;",
     "<": "&lt;",
     ">": "&gt;",
     '"': "&quot;",
     "'": "&apos;",
-  })[character]);
+  };
+  return value.replace(/[&<>"']/g, (character) => entities[character]);
 }
 
-function renderSvg(title, colors) {
+function renderSvg(title: string, colors: string[]): string {
   const swatchSize = 24;
   const height = swatchSize;
   const width = swatchSize * colors.length;
@@ -41,9 +42,11 @@ function renderSvg(title, colors) {
   ].join("\n");
 }
 
-const original = fs.readFileSync(readmePath, "utf8");
+const originalRaw = fs.readFileSync(readmePath, "utf8");
+const outputEol = originalRaw.includes("\r\n") ? "\r\n" : "\n";
+const original = originalRaw.replace(/\r\n/g, "\n");
 const entryPattern = /(^### ([^\r\n]+)[\s\S]*?)(?=^### |^## |(?![\s\S]))/gm;
-const palettes = new Map();
+const palettes = new Map<string, string>();
 
 const updated = original.replace(entryPattern, (entry, _whole, title) => {
   const colorStart = entry.indexOf("**Color:**");
@@ -85,15 +88,15 @@ const expectedFiles = new Set(palettes.keys());
 const existingFiles = fs.existsSync(paletteDir)
   ? fs.readdirSync(paletteDir).filter((filename) => filename.endsWith(".svg"))
   : [];
-const problems = [];
+const problems: string[] = [];
 
 if (updated !== original) {
   if (check) {
     problems.push(
-      "README.md palette markup is out of date. Run `node auto/generate-palettes.mjs`; SVG filenames are generated automatically and must not be edited by hand.",
+      "README.md palette markup is out of date. Run `node auto/generate-palettes.ts`; SVG filenames are generated automatically and must not be edited by hand.",
     );
   }
-  else fs.writeFileSync(readmePath, updated);
+  else fs.writeFileSync(readmePath, updated.replace(/\n/g, outputEol));
 }
 
 if (!check) fs.mkdirSync(paletteDir, { recursive: true });
@@ -101,7 +104,10 @@ if (!check) fs.mkdirSync(paletteDir, { recursive: true });
 for (const [filename, content] of palettes) {
   const outputPath = path.join(paletteDir, filename);
   if (check) {
-    if (!fs.existsSync(outputPath) || fs.readFileSync(outputPath, "utf8") !== content) {
+    const existing = fs.existsSync(outputPath)
+      ? fs.readFileSync(outputPath, "utf8").replace(/\r\n/g, "\n")
+      : null;
+    if (existing !== content) {
       problems.push(`auto/palettes/${filename} is missing or out of date.`);
     }
   } else {
