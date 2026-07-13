@@ -59,6 +59,24 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
+### 2026-Peng-Nature Geoscience
+<img alt="Fig. 2" src="./figures/geomap/41561_2026_1992_Fig2_HTML.webp" width="1000">
+
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation (APA):** Peng, Y., Luo, J., Guo, L., Chen, H., Gao, Y., Peng, Z., & Liu, L. (2026). Precipitation threshold-driven shifts in dominant controls of ecosystem nitrogen retention. **Nature Geoscience**, 1-7.
+
+**Link:** [[paper]](https://doi.org/10.1038/s41561-026-01992-5)
+
+**Tag:** `colorbar`
+
+**Color:** <sub><sup>#4ba6e0</sup></sub>![#4ba6e0](https://placehold.co/20x20/4ba6e0/4ba6e0.svg) <sub><sup>#7fbfe9</sup></sub>![#7fbfe9](https://placehold.co/20x20/7fbfe9/7fbfe9.svg) <sub><sup>#b0d4f1</sup></sub>![#b0d4f1](https://placehold.co/20x20/b0d4f1/b0d4f1.svg) <sub><sup>#daeaf7</sup></sub>![#daeaf7](https://placehold.co/20x20/daeaf7/daeaf7.svg) <sub><sup>#e2bde7</sup></sub>![#e2bde7](https://placehold.co/20x20/e2bde7/e2bde7.svg)<sub><sup>#ba68c8</sup></sub>![#ba68c8](https://placehold.co/20x20/ba68c8/ba68c8.svg)<sub><sup>#9d27b0</sup></sub>![#9d27b0](https://placehold.co/20x20/9d27b0/9d27b0.svg)<sub><sup>#683ab7</sup></sub>![#683ab7](https://placehold.co/20x20/683ab7/683ab7.svg)
+
+</details>
+
+---
+
 ### 2016-Jiang-PNAS
 <img alt="Fig. 1" src="./figures/geomap/pnas.1524261113fig01.jpeg" width="1000">
 
