@@ -65,7 +65,7 @@ Scientific figures are essential for communicating research, yet strong examples
 <details>
 <summary><b>Citation & Details</b></summary>
 
-**Citation (APA):** Peng, Y., Luo, J., Guo, L., Chen, H., Gao, Y., Peng, Z., & Liu, L. (2026). Precipitation threshold-driven shifts in dominant controls of ecosystem nitrogen retention. **Nature Geoscience**, 1-7.
+**Citation (APA):** Peng, Y., Luo, J., Guo, L., Chen, H., Gao, Y., Peng, Z., & Liu, L. (2026). Precipitation threshold-driven shifts in dominant controls of ecosystem nitrogen retention. *Nature Geoscience*, 1-7.
 
 **Link:** [[paper]](https://doi.org/10.1038/s41561-026-01992-5)
 
