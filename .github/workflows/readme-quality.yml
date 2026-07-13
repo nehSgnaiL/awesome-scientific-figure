@@ -5,7 +5,7 @@ on:
     paths:
       - "README.md"
       - "figures/**"
-      - "scripts/**"
+      - "auto/**"
       - ".github/workflows/readme-quality.yml"
   push:
     branches:
@@ -14,7 +14,7 @@ on:
     paths:
       - "README.md"
       - "figures/**"
-      - "scripts/**"
+      - "auto/**"
       - ".github/workflows/readme-quality.yml"
   workflow_dispatch:
 
@@ -30,9 +30,9 @@ jobs:
         with:
           node-version: 22
       - name: Generate palette strips in the check workspace
-        run: node scripts/generate-palettes.mjs
+        run: node auto/generate-palettes.mjs
       - name: Validate the generated README and assets
-        run: node scripts/validate-readme.mjs
+        run: node auto/validate-readme.mjs
 
   sync:
     if: github.event_name != 'pull_request'
@@ -45,19 +45,19 @@ jobs:
         with:
           node-version: 22
       - name: Generate palette strips and remove obsolete assets
-        run: node scripts/generate-palettes.mjs
+        run: node auto/generate-palettes.mjs
       - name: Validate the generated README and assets
-        run: node scripts/validate-readme.mjs
+        run: node auto/validate-readme.mjs
       - name: Commit generated palette changes
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- README.md figures/palettes)" ]; then
+          if [ -z "$(git status --porcelain -- README.md auto/palettes)" ]; then
             echo "Palette assets are already synchronized."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- README.md figures/palettes
+          git add -A -- README.md auto/palettes
           git commit -m "chore: sync generated palettes [skip ci]"
           git push

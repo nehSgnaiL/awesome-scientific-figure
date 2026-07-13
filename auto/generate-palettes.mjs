@@ -4,7 +4,7 @@ import { createHash } from "node:crypto";
 
 const root = path.resolve(import.meta.dirname, "..");
 const readmePath = path.join(root, "README.md");
-const paletteDir = path.join(root, "figures", "palettes");
+const paletteDir = path.join(root, "auto", "palettes");
 const check = process.argv.includes("--check");
 
 function slugify(value) {
@@ -74,7 +74,7 @@ const updated = original.replace(entryPattern, (entry, _whole, title) => {
     `**Color:** ${colors.map((color) => `\`${color}\``).join(" ")}`,
     "",
     "<!-- Palette asset and filename are generated; edit only the hex values above. -->",
-    `<img alt="Color palette for ${title}: ${colors.join(", ")}" src="./figures/palettes/${filename}" width="${width}" height="24">`,
+    `<img alt="Color palette for ${title}: ${colors.join(", ")}" src="./auto/palettes/${filename}" width="${width}" height="24">`,
     "",
   ].join("\n");
 
@@ -90,7 +90,7 @@ const problems = [];
 if (updated !== original) {
   if (check) {
     problems.push(
-      "README.md palette markup is out of date. Run `node scripts/generate-palettes.mjs`; SVG filenames are generated automatically and must not be edited by hand.",
+      "README.md palette markup is out of date. Run `node auto/generate-palettes.mjs`; SVG filenames are generated automatically and must not be edited by hand.",
     );
   }
   else fs.writeFileSync(readmePath, updated);
@@ -102,7 +102,7 @@ for (const [filename, content] of palettes) {
   const outputPath = path.join(paletteDir, filename);
   if (check) {
     if (!fs.existsSync(outputPath) || fs.readFileSync(outputPath, "utf8") !== content) {
-      problems.push(`figures/palettes/${filename} is missing or out of date.`);
+      problems.push(`auto/palettes/${filename} is missing or out of date.`);
     }
   } else {
     fs.writeFileSync(outputPath, content);
@@ -111,7 +111,7 @@ for (const [filename, content] of palettes) {
 
 for (const filename of existingFiles) {
   if (!expectedFiles.has(filename)) {
-    if (check) problems.push(`figures/palettes/${filename} is no longer referenced.`);
+    if (check) problems.push(`auto/palettes/${filename} is no longer referenced.`);
     else fs.rmSync(path.join(paletteDir, filename));
   }
 }

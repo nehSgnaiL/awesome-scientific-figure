@@ -38,7 +38,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#2A4291` `#F8CA13` `#C00005` `#64C9EA` `#58AF63` `#E98A02` `#DE24CE`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2021-Xu-Tour Manag: #2A4291, #F8CA13, #C00005, #64C9EA, #58AF63, #E98A02, #DE24CE" src="./figures/palettes/2021-xu-tour-manag-2459e8f7.svg" width="168" height="24">
+<img alt="Color palette for 2021-Xu-Tour Manag: #2A4291, #F8CA13, #C00005, #64C9EA, #58AF63, #E98A02, #DE24CE" src="./auto/palettes/2021-xu-tour-manag-2459e8f7.svg" width="168" height="24">
 </details>
 
 ---
@@ -58,7 +58,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#FDEDBD` `#FCDA9B` `#FDBD39` `#E83D39` `#F7F7EF`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2021-Xu-Ann AAG: #FDEDBD, #FCDA9B, #FDBD39, #E83D39, #F7F7EF" src="./figures/palettes/2021-xu-ann-aag-c9aab096.svg" width="120" height="24">
+<img alt="Color palette for 2021-Xu-Ann AAG: #FDEDBD, #FCDA9B, #FDBD39, #E83D39, #F7F7EF" src="./auto/palettes/2021-xu-ann-aag-c9aab096.svg" width="120" height="24">
 </details>
 
 ---
@@ -78,7 +78,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#4BA6E0` `#7FBFE9` `#B0D4F1` `#DAEAF7` `#E2BDE7` `#BA68C8` `#9D27B0` `#683AB7`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2026-Peng-Nature Geoscience: #4BA6E0, #7FBFE9, #B0D4F1, #DAEAF7, #E2BDE7, #BA68C8, #9D27B0, #683AB7" src="./figures/palettes/2026-peng-nature-geoscience-28929ff8.svg" width="192" height="24">
+<img alt="Color palette for 2026-Peng-Nature Geoscience: #4BA6E0, #7FBFE9, #B0D4F1, #DAEAF7, #E2BDE7, #BA68C8, #9D27B0, #683AB7" src="./auto/palettes/2026-peng-nature-geoscience-28929ff8.svg" width="192" height="24">
 </details>
 
 ---
@@ -98,7 +98,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#0098BD` `#4BE3CE` `#FEEDB0` `#FEAC54` `#D1374F`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2019-Xu-CEUS: #0098BD, #4BE3CE, #FEEDB0, #FEAC54, #D1374F" src="./figures/palettes/2019-xu-ceus-e9d85a52.svg" width="120" height="24">
+<img alt="Color palette for 2019-Xu-CEUS: #0098BD, #4BE3CE, #FEEDB0, #FEAC54, #D1374F" src="./auto/palettes/2019-xu-ceus-e9d85a52.svg" width="120" height="24">
 </details>
 
 ---
@@ -120,7 +120,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#1E78B5` `#A6CEE3` `#B4DF8A` `#32A02D`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2020-Gibbs-Nat Commun: #1E78B5, #A6CEE3, #B4DF8A, #32A02D" src="./figures/palettes/2020-gibbs-nat-commun-c603a9ea.svg" width="96" height="24">
+<img alt="Color palette for 2020-Gibbs-Nat Commun: #1E78B5, #A6CEE3, #B4DF8A, #32A02D" src="./auto/palettes/2020-gibbs-nat-commun-c603a9ea.svg" width="96" height="24">
 </details>
 
 ---
@@ -140,7 +140,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#FE0505` `#0B0CFE` `#FF9D03` `#007701` `#03FFFE`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2022-Yabe-CEUS: #FE0505, #0B0CFE, #FF9D03, #007701, #03FFFE" src="./figures/palettes/2022-yabe-ceus-c8f880a3.svg" width="120" height="24">
+<img alt="Color palette for 2022-Yabe-CEUS: #FE0505, #0B0CFE, #FF9D03, #007701, #03FFFE" src="./auto/palettes/2022-yabe-ceus-c8f880a3.svg" width="120" height="24">
 </details>
 
 ---
@@ -161,7 +161,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#FDAE61` `#FFFFBF` `#ACDDA5` `#2E84BC` `#EE6AA6` `#BEBEBE` `#189E78` `#DA5F00` `#7570B3` `#E7288A` `#66A51E` `#E5AA05` `#A6751D` `#666666`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2022-Tegally-Science: #FDAE61, #FFFFBF, #ACDDA5, #2E84BC, #EE6AA6, #BEBEBE, #189E78, #DA5F00, #7570B3, #E7288A, #66A51E, #E5AA05, #A6751D, #666666" src="./figures/palettes/2022-tegally-science-219d25a2.svg" width="336" height="24">
+<img alt="Color palette for 2022-Tegally-Science: #FDAE61, #FFFFBF, #ACDDA5, #2E84BC, #EE6AA6, #BEBEBE, #189E78, #DA5F00, #7570B3, #E7288A, #66A51E, #E5AA05, #A6751D, #666666" src="./auto/palettes/2022-tegally-science-219d25a2.svg" width="336" height="24">
 </details>
 
 ---
@@ -181,7 +181,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#EA9493` `#95CF95` `#3081AF` `#F18125`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2019-Yin-Nature: #EA9493, #95CF95, #3081AF, #F18125" src="./figures/palettes/2019-yin-nature-afe23201.svg" width="96" height="24">
+<img alt="Color palette for 2019-Yin-Nature: #EA9493, #95CF95, #3081AF, #F18125" src="./auto/palettes/2019-yin-nature-afe23201.svg" width="96" height="24">
 </details>
 
 ---
@@ -201,7 +201,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#2177B5` `#FF800E` `#2BA02B` `#D72927`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2020-Alessandretti-Nature: #2177B5, #FF800E, #2BA02B, #D72927" src="./figures/palettes/2020-alessandretti-nature-99c6c3fc.svg" width="96" height="24">
+<img alt="Color palette for 2020-Alessandretti-Nature: #2177B5, #FF800E, #2BA02B, #D72927" src="./auto/palettes/2020-alessandretti-nature-99c6c3fc.svg" width="96" height="24">
 </details>
 
 ---
@@ -319,7 +319,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#375294` `#D93431` `#1F7E46`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2009-Wang-Science: #375294, #D93431, #1F7E46" src="./figures/palettes/2009-wang-science-999d0f75.svg" width="72" height="24">
+<img alt="Color palette for 2009-Wang-Science: #375294, #D93431, #1F7E46" src="./auto/palettes/2009-wang-science-999d0f75.svg" width="72" height="24">
 </details>
 
 ---
@@ -339,7 +339,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#00CBD2` `#FFAA01`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2025-Ibrahim-Fundam Res: #00CBD2, #FFAA01" src="./figures/palettes/2025-ibrahim-fundam-res-e905a8dd.svg" width="48" height="24">
+<img alt="Color palette for 2025-Ibrahim-Fundam Res: #00CBD2, #FFAA01" src="./auto/palettes/2025-ibrahim-fundam-res-e905a8dd.svg" width="48" height="24">
 </details>
 
 ---
@@ -359,7 +359,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#1DBDE6` `#F1515E`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2026-Liang-Travel Behav Soc: #1DBDE6, #F1515E" src="./figures/palettes/2026-liang-travel-behav-soc-d56c4c18.svg" width="48" height="24">
+<img alt="Color palette for 2026-Liang-Travel Behav Soc: #1DBDE6, #F1515E" src="./auto/palettes/2026-liang-travel-behav-soc-d56c4c18.svg" width="48" height="24">
 </details>
 
 ---
@@ -381,7 +381,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#E95C49` `#5AC0D7`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2022-Xu-CEUS: #E95C49, #5AC0D7" src="./figures/palettes/2022-xu-ceus-49e21cea.svg" width="48" height="24">
+<img alt="Color palette for 2022-Xu-CEUS: #E95C49, #5AC0D7" src="./auto/palettes/2022-xu-ceus-49e21cea.svg" width="48" height="24">
 </details>
 
 ---
@@ -401,7 +401,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#FEE0BE` `#A8DCA5` `#FFE1E0`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2022-Jin-Emerg Microbes Infect: #FEE0BE, #A8DCA5, #FFE1E0" src="./figures/palettes/2022-jin-emerg-microbes-infect-da3f2b6b.svg" width="72" height="24">
+<img alt="Color palette for 2022-Jin-Emerg Microbes Infect: #FEE0BE, #A8DCA5, #FFE1E0" src="./auto/palettes/2022-jin-emerg-microbes-infect-da3f2b6b.svg" width="72" height="24">
 </details>
 
 ---
@@ -507,7 +507,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#EFE541` `#296AB2` `#E40519` `#75B728`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2016-Jiang-PNAS: #EFE541, #296AB2, #E40519, #75B728" src="./figures/palettes/2016-jiang-pnas-5dd086e9.svg" width="96" height="24">
+<img alt="Color palette for 2016-Jiang-PNAS: #EFE541, #296AB2, #E40519, #75B728" src="./auto/palettes/2016-jiang-pnas-5dd086e9.svg" width="96" height="24">
 </details>
 
 ---
@@ -527,7 +527,7 @@ Scientific figures are essential for communicating research, yet strong examples
 **Color:** `#359C7D` `#D15F2E` `#6E72A6`
 
 <!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2017-Xu-J R Soc Interface: #359C7D, #D15F2E, #6E72A6" src="./figures/palettes/2017-xu-j-r-soc-interface-a1ac3ad0.svg" width="72" height="24">
+<img alt="Color palette for 2017-Xu-J R Soc Interface: #359C7D, #D15F2E, #6E72A6" src="./auto/palettes/2017-xu-j-r-soc-interface-a1ac3ad0.svg" width="72" height="24">
 </details>
 
 ## Contributing

@@ -64,7 +64,7 @@ for (const match of readme.matchAll(entryPattern)) {
 }
 
 for (const relative of localImages) {
-  if (relative.startsWith("figures/palettes/")) continue;
+  if (relative.startsWith("auto/palettes/")) continue;
   const size = fs.statSync(path.join(root, relative)).size;
   if (size > 5 * 1024 * 1024) errors.push(`${relative} exceeds the 5 MiB image limit.`);
   else if (size > 1024 * 1024) warnings.push(`${relative} is ${(size / 1024 / 1024).toFixed(2)} MiB; consider lossless optimization.`);
