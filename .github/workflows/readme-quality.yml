@@ -1,0 +1,35 @@
+name: README quality
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "figures/**"
+      - "scripts/**"
+      - ".github/workflows/readme-quality.yml"
+  push:
+    branches:
+      - dev
+      - main
+    paths:
+      - "README.md"
+      - "figures/**"
+      - "scripts/**"
+      - ".github/workflows/readme-quality.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check generated palette strips
+        run: node scripts/generate-palettes.mjs --check
+      - name: Validate README and image assets
+        run: node scripts/validate-readme.mjs

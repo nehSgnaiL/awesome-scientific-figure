@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" role="img" aria-labelledby="title">
+  <title id="title">2022-Yabe-CEUS color palette: #FE0505, #0B0CFE, #FF9D03, #007701, #03FFFE</title>
+  <rect x="0" y="0" width="32" height="24" fill="#FE0505" stroke="#d0d7de"/>
+  <rect x="32" y="0" width="32" height="24" fill="#0B0CFE" stroke="#d0d7de"/>
+  <rect x="64" y="0" width="32" height="24" fill="#FF9D03" stroke="#d0d7de"/>
+  <rect x="96" y="0" width="32" height="24" fill="#007701" stroke="#d0d7de"/>
+  <rect x="128" y="0" width="32" height="24" fill="#03FFFE" stroke="#d0d7de"/>
+</svg>

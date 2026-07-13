@@ -14,7 +14,7 @@ Scientific figures are essential for communicating research, yet strong examples
 - **Find inspiration** for papers, slides, and projects
 
 ## Table of Contents
-- [Geographical map](#geographic-map)
+- [Geographical map](#geographical-map)
 - [Combination Fig](#combination-fig)
 - [Scatter](#scatter)
 - [Boxplot](#boxplot)
@@ -35,8 +35,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `flow`
 
-**Color:** <sub><sup>#2A4291</sup></sub>![#2A4291](https://placehold.co/20x20/2A4291/2A4291.svg) <sub><sup>#F8CA13</sup></sub>![#F8CA13](https://placehold.co/20x20/F8CA13/F8CA13.svg) <sub><sup>#C00005</sup></sub>![#C00005](https://placehold.co/20x20/C00005/C00005.svg) <sub><sup>#64C9EA</sup></sub>![#64C9EA](https://placehold.co/20x20/64C9EA/64C9EA.svg) <sub><sup>#58AF63</sup></sub>![#58AF63](https://placehold.co/20x20/58AF63/58AF63.svg) <sub><sup>#E98A02</sup></sub>![#E98A02](https://placehold.co/20x20/E98A02/E98A02.svg) <sub><sup>#DE24CE</sup></sub>![#DE24CE](https://placehold.co/20x20/DE24CE/DE24CE.svg)
+**Color:** `#2A4291` `#F8CA13` `#C00005` `#64C9EA` `#58AF63` `#E98A02` `#DE24CE`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2021-Xu-Tour Manag: #2A4291, #F8CA13, #C00005, #64C9EA, #58AF63, #E98A02, #DE24CE" src="./figures/palettes/2021-xu-tour-manag.svg" width="224" height="24">
 </details>
 
 ---
@@ -53,8 +55,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `notation`
 
-**Color:** <sub><sup>#FDEDBD</sup></sub>![#FDEDBD](https://placehold.co/20x20/FDEDBD/FDEDBD.svg) <sub><sup>#FCDA9B</sup></sub>![#FCDA9B](https://placehold.co/20x20/FCDA9B/FCDA9B.svg) <sub><sup>#FDBD39</sup></sub>![#FDBD39](https://placehold.co/20x20/FDBD39/FDBD39.svg) <sub><sup>#E83D39</sup></sub>![#E83D39](https://placehold.co/20x20/E83D39/E83D39.svg) <sub><sup>#F7F7EF</sup></sub>![#F7F7EF](https://placehold.co/20x20/F7F7EF/F7F7EF.svg)
+**Color:** `#FDEDBD` `#FCDA9B` `#FDBD39` `#E83D39` `#F7F7EF`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2021-Xu-Ann AAG: #FDEDBD, #FCDA9B, #FDBD39, #E83D39, #F7F7EF" src="./figures/palettes/2021-xu-ann-aag.svg" width="160" height="24">
 </details>
 
 ---
@@ -71,8 +75,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `colorbar`
 
-**Color:** <sub><sup>#4ba6e0</sup></sub>![#4ba6e0](https://placehold.co/20x20/4ba6e0/4ba6e0.svg) <sub><sup>#7fbfe9</sup></sub>![#7fbfe9](https://placehold.co/20x20/7fbfe9/7fbfe9.svg) <sub><sup>#b0d4f1</sup></sub>![#b0d4f1](https://placehold.co/20x20/b0d4f1/b0d4f1.svg) <sub><sup>#daeaf7</sup></sub>![#daeaf7](https://placehold.co/20x20/daeaf7/daeaf7.svg) <sub><sup>#e2bde7</sup></sub>![#e2bde7](https://placehold.co/20x20/e2bde7/e2bde7.svg)<sub><sup>#ba68c8</sup></sub>![#ba68c8](https://placehold.co/20x20/ba68c8/ba68c8.svg)<sub><sup>#9d27b0</sup></sub>![#9d27b0](https://placehold.co/20x20/9d27b0/9d27b0.svg)<sub><sup>#683ab7</sup></sub>![#683ab7](https://placehold.co/20x20/683ab7/683ab7.svg)
+**Color:** `#4BA6E0` `#7FBFE9` `#B0D4F1` `#DAEAF7` `#E2BDE7` `#BA68C8` `#9D27B0` `#683AB7`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2026-Peng-Nature Geoscience: #4BA6E0, #7FBFE9, #B0D4F1, #DAEAF7, #E2BDE7, #BA68C8, #9D27B0, #683AB7" src="./figures/palettes/2026-peng-nature-geoscience.svg" width="256" height="24">
 </details>
 
 ---
@@ -89,8 +95,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `prob`
 
-**Color:** <sub><sup>#EFE541</sup></sub>![#EFE541](https://placehold.co/20x20/EFE541/EFE541.svg) <sub><sup>#296AB2</sup></sub>![#296AB2](https://placehold.co/20x20/296AB2/296AB2.svg) <sub><sup>#E40519</sup></sub>![#E40519](https://placehold.co/20x20/E40519/E40519.svg) <sub><sup>#75B728</sup></sub>![#75B728](https://placehold.co/20x20/75B728/75B728.svg)
+**Color:** `#EFE541` `#296AB2` `#E40519` `#75B728`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2016-Jiang-PNAS: #EFE541, #296AB2, #E40519, #75B728" src="./figures/palettes/2016-jiang-pnas.svg" width="128" height="24">
 </details>
 
 ---
@@ -107,8 +115,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `3D`
 
-**Color:** <sub><sup>#0098BD</sup></sub>![#0098BD](https://placehold.co/20x20/0098BD/0098BD.svg) <sub><sup>#4BE3CE</sup></sub>![#4BE3CE](https://placehold.co/20x20/4BE3CE/4BE3CE.svg) <sub><sup>#FEEDB0</sup></sub>![#FEEDB0](https://placehold.co/20x20/FEEDB0/FEEDB0.svg) <sub><sup>#FEAC54</sup></sub>![#FEAC54](https://placehold.co/20x20/FEAC54/FEAC54.svg) <sub><sup>#D1374F</sup></sub>![#D1374F](https://placehold.co/20x20/D1374F/D1374F.svg)
+**Color:** `#0098BD` `#4BE3CE` `#FEEDB0` `#FEAC54` `#D1374F`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2019-Xu-CEUS: #0098BD, #4BE3CE, #FEEDB0, #FEAC54, #D1374F" src="./figures/palettes/2019-xu-ceus.svg" width="160" height="24">
 </details>
 
 ---
@@ -127,8 +137,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `cluster`
 
-**Color:** <sub><sup>#1E78B5</sup></sub>![#1E78B5](https://placehold.co/20x20/1E78B5/1E78B5.svg) <sub><sup>#A6CEE3</sup></sub>![#A6CEE3](https://placehold.co/20x20/A6CEE3/A6CEE3.svg) <sub><sup>#B4DF8A</sup></sub>![#B4DF8A](https://placehold.co/20x20/B4DF8A/B4DF8A.svg) <sub><sup>#32A02D</sup></sub>![#32A02D](https://placehold.co/20x20/32A02D/32A02D.svg)
+**Color:** `#1E78B5` `#A6CEE3` `#B4DF8A` `#32A02D`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2020-Gibbs-Nat Commun: #1E78B5, #A6CEE3, #B4DF8A, #32A02D" src="./figures/palettes/2020-gibbs-nat-commun.svg" width="128" height="24">
 </details>
 
 ---
@@ -145,8 +157,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `cross`
 
-**Color:** <sub><sup>#FE0505</sup></sub>![#FE0505](https://placehold.co/20x20/FE0505/FE0505.svg) <sub><sup>#0B0CFE</sup></sub>![#0B0CFE](https://placehold.co/20x20/0B0CFE/0B0CFE.svg) <sub><sup>#FF9D03</sup></sub>![#FF9D03](https://placehold.co/20x20/FF9D03/FF9D03.svg) <sub><sup>#007701</sup></sub>![#007701](https://placehold.co/20x20/007701/007701.svg) <sub><sup>#03FFFE</sup></sub>![#03FFFE](https://placehold.co/20x20/03FFFE/03FFFE.svg)
+**Color:** `#FE0505` `#0B0CFE` `#FF9D03` `#007701` `#03FFFE`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2022-Yabe-CEUS: #FE0505, #0B0CFE, #FF9D03, #007701, #03FFFE" src="./figures/palettes/2022-yabe-ceus.svg" width="160" height="24">
 </details>
 
 ---
@@ -164,10 +178,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `period`
 
-**Color:** <sub><sup>#FDAE61</sup></sub>![#FDAE61](https://placehold.co/20x20/FDAE61/FDAE61.svg) <sub><sup>#FFFFBF</sup></sub>![#FFFFBF](https://placehold.co/20x20/FFFFBF/FFFFBF.svg) <sub><sup>#ACDDA5</sup></sub>![#ACDDA5](https://placehold.co/20x20/ACDDA5/ACDDA5.svg) <sub><sup>#2E84BC</sup></sub>![#2E84BC](https://placehold.co/20x20/2E84BC/2E84BC.svg) <sub><sup>#EE6AA6</sup></sub>![#EE6AA6](https://placehold.co/20x20/EE6AA6/EE6AA6.svg) <sub><sup>#BEBEBE</sup></sub>![#BEBEBE](https://placehold.co/20x20/BEBEBE/BEBEBE.svg)
+**Color:** `#FDAE61` `#FFFFBF` `#ACDDA5` `#2E84BC` `#EE6AA6` `#BEBEBE` `#189E78` `#DA5F00` `#7570B3` `#E7288A` `#66A51E` `#E5AA05` `#A6751D` `#666666`
 
-<sub><sup>#189E78</sup></sub>![#189E78](https://placehold.co/20x20/189E78/189E78.svg) <sub><sup>#DA5F00</sup></sub>![#DA5F00](https://placehold.co/20x20/DA5F00/DA5F00.svg) <sub><sup>#7570B3</sup></sub>![#7570B3](https://placehold.co/20x20/7570B3/7570B3.svg) <sub><sup>#E7288A</sup></sub>![#E7288A](https://placehold.co/20x20/E7288A/E7288A.svg) <sub><sup>#66A51E</sup></sub>![#66A51E](https://placehold.co/20x20/66A51E/66A51E.svg) <sub><sup>#E5AA05</sup></sub>![#E5AA05](https://placehold.co/20x20/E5AA05/E5AA05.svg) <sub><sup>#A6751D</sup></sub>![#A6751D](https://placehold.co/20x20/A6751D/A6751D.svg) <sub><sup>#666666</sup></sub>![#666666](https://placehold.co/20x20/666666/666666.svg)
-
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2022-Tegally-Science: #FDAE61, #FFFFBF, #ACDDA5, #2E84BC, #EE6AA6, #BEBEBE, #189E78, #DA5F00, #7570B3, #E7288A, #66A51E, #E5AA05, #A6751D, #666666" src="./figures/palettes/2022-tegally-science.svg" width="448" height="24">
 </details>
 
 ---
@@ -184,10 +198,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `font`
 
-**Color:** <sub><sup>#EA9493</sup></sub>![#EA9493](https://placehold.co/20x20/EA9493/EA9493.svg) <sub><sup>#95CF95</sup></sub>![#95CF95](https://placehold.co/20x20/95CF95/95CF95.svg)
+**Color:** `#EA9493` `#95CF95` `#3081AF` `#F18125`
 
-<sub><sup>#3081AF</sup></sub>![#3081AF](https://placehold.co/20x20/3081AF/3081AF.svg) <sub><sup>#F18125</sup></sub>![#F18125](https://placehold.co/20x20/F18125/F18125.svg)
-
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2019-Yin-Nature: #EA9493, #95CF95, #3081AF, #F18125" src="./figures/palettes/2019-yin-nature.svg" width="128" height="24">
 </details>
 
 ---
@@ -204,8 +218,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `echo`
 
-**Color:** <sub><sup>#2177B5</sup></sub>![#2177B5](https://placehold.co/20x20/2177B5/2177B5.svg) <sub><sup>#FF800E</sup></sub>![#FF800E](https://placehold.co/20x20/FF800E/FF800E.svg) <sub><sup>#2BA02B</sup></sub>![#2BA02B](https://placehold.co/20x20/2BA02B/2BA02B.svg) <sub><sup>#D72927</sup></sub>![#D72927](https://placehold.co/20x20/D72927/D72927.svg)
+**Color:** `#2177B5` `#FF800E` `#2BA02B` `#D72927`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2020-Alessandretti-Nature: #2177B5, #FF800E, #2BA02B, #D72927" src="./figures/palettes/2020-alessandretti-nature.svg" width="128" height="24">
 </details>
 
 ---
@@ -320,8 +336,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `fit`
 
-**Color:** <sub><sup>#375294</sup></sub>![#375294](https://placehold.co/20x20/375294/375294.svg) <sub><sup>#D93431</sup></sub>![#D93431](https://placehold.co/20x20/D93431/D93431.svg) <sub><sup>#1F7E46</sup></sub>![#1F7E46](https://placehold.co/20x20/1F7E46/1F7E46.svg)
+**Color:** `#375294` `#D93431` `#1F7E46`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2009-Wang-Science: #375294, #D93431, #1F7E46" src="./figures/palettes/2009-wang-science.svg" width="96" height="24">
 </details>
 
 ---
@@ -338,8 +356,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `fit`
 
-**Color:** <sub><sup>#00CBD2</sup></sub>![#00CBD2](https://placehold.co/20x20/00CBD2/00CBD2.svg) <sub><sup>#FFAA01</sup></sub>![#FFAA01](https://placehold.co/20x20/FFAA01/FFAA01.svg)
+**Color:** `#00CBD2` `#FFAA01`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2025-Ibrahim-Fundam Res: #00CBD2, #FFAA01" src="./figures/palettes/2025-ibrahim-fundam-res.svg" width="64" height="24">
 </details>
 
 ---
@@ -356,8 +376,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `trend`
 
-**Color:** <sub><sup>#1dbde6</sup></sub>![#1dbde6](https://placehold.co/20x20/1dbde6/1dbde6.svg) <sub><sup>#f1515e</sup></sub>![#f1515e](https://placehold.co/20x20/f1515e/f1515e.svg)
+**Color:** `#1DBDE6` `#F1515E`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2026-Liang-Travel Behav Soc: #1DBDE6, #F1515E" src="./figures/palettes/2026-liang-travel-behav-soc.svg" width="64" height="24">
 </details>
 
 ---
@@ -376,8 +398,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `comparison`
 
-**Color:** <sub><sup>#E95C49</sup></sub>![#E95C49](https://placehold.co/20x20/E95C49/E95C49.svg) <sub><sup>#5AC0D7</sup></sub>![#5AC0D7](https://placehold.co/20x20/5AC0D7/5AC0D7.svg)
+**Color:** `#E95C49` `#5AC0D7`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2022-Xu-CEUS: #E95C49, #5AC0D7" src="./figures/palettes/2022-xu-ceus.svg" width="64" height="24">
 </details>
 
 ---
@@ -394,8 +418,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `comparison` `confidence`
 
-**Color:** <sub><sup>#FEE0BE</sup></sub>![#FEE0BE](https://placehold.co/20x20/FEE0BE/FEE0BE.svg) <sub><sup>#A8DCA5</sup></sub>![#A8DCA5](https://placehold.co/20x20/A8DCA5/A8DCA5.svg) <sub><sup>#FFE1E0</sup></sub>![#FFE1E0](https://placehold.co/20x20/FFE1E0/FFE1E0.svg)
+**Color:** `#FEE0BE` `#A8DCA5` `#FFE1E0`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2022-Jin-Emerg Microbes Infect: #FEE0BE, #A8DCA5, #FFE1E0" src="./figures/palettes/2022-jin-emerg-microbes-infect.svg" width="96" height="24">
 </details>
 
 ---
@@ -498,8 +524,10 @@ Scientific figures are essential for communicating research, yet strong examples
 
 **Tag:** `flow`
 
-**Color:** <sub><sup>#359C7D</sup></sub>![#359C7D](https://placehold.co/20x20/359C7D/359C7D.svg) <sub><sup>#D15F2E</sup></sub>![#D15F2E](https://placehold.co/20x20/D15F2E/D15F2E.svg) <sub><sup>#6E72A6</sup></sub>![#6E72A6](https://placehold.co/20x20/6E72A6/6E72A6.svg)
+**Color:** `#359C7D` `#D15F2E` `#6E72A6`
 
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2017-Xu-J R Soc Interface: #359C7D, #D15F2E, #6E72A6" src="./figures/palettes/2017-xu-j-r-soc-interface.svg" width="96" height="24">
 </details>
 
 ## Contributing
