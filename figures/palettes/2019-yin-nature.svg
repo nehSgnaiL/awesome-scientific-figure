@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="24" viewBox="0 0 96 24" role="img" aria-labelledby="title">
   <title id="title">2019-Yin-Nature color palette: #EA9493, #95CF95, #3081AF, #F18125</title>
-  <rect x="0" y="0" width="24" height="24" fill="#EA9493" stroke="#d0d7de"/>
-  <rect x="24" y="0" width="24" height="24" fill="#95CF95" stroke="#d0d7de"/>
-  <rect x="48" y="0" width="24" height="24" fill="#3081AF" stroke="#d0d7de"/>
-  <rect x="72" y="0" width="24" height="24" fill="#F18125" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#EA9493"/>
+  <rect x="24" y="0" width="24" height="24" fill="#95CF95"/>
+  <rect x="48" y="0" width="24" height="24" fill="#3081AF"/>
+  <rect x="72" y="0" width="24" height="24" fill="#F18125"/>
 </svg>

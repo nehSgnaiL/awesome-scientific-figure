@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="24" viewBox="0 0 96 24" role="img" aria-labelledby="title">
   <title id="title">2020-Gibbs-Nat Commun color palette: #1E78B5, #A6CEE3, #B4DF8A, #32A02D</title>
-  <rect x="0" y="0" width="24" height="24" fill="#1E78B5" stroke="#d0d7de"/>
-  <rect x="24" y="0" width="24" height="24" fill="#A6CEE3" stroke="#d0d7de"/>
-  <rect x="48" y="0" width="24" height="24" fill="#B4DF8A" stroke="#d0d7de"/>
-  <rect x="72" y="0" width="24" height="24" fill="#32A02D" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#1E78B5"/>
+  <rect x="24" y="0" width="24" height="24" fill="#A6CEE3"/>
+  <rect x="48" y="0" width="24" height="24" fill="#B4DF8A"/>
+  <rect x="72" y="0" width="24" height="24" fill="#32A02D"/>
 </svg>

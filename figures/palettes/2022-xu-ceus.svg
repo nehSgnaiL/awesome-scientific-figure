@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="24" viewBox="0 0 48 24" role="img" aria-labelledby="title">
   <title id="title">2022-Xu-CEUS color palette: #E95C49, #5AC0D7</title>
-  <rect x="0" y="0" width="24" height="24" fill="#E95C49" stroke="#d0d7de"/>
-  <rect x="24" y="0" width="24" height="24" fill="#5AC0D7" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#E95C49"/>
+  <rect x="24" y="0" width="24" height="24" fill="#5AC0D7"/>
 </svg>

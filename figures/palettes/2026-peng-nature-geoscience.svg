@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="192" height="24" viewBox="0 0 192 24" role="img" aria-labelledby="title">
   <title id="title">2026-Peng-Nature Geoscience color palette: #4BA6E0, #7FBFE9, #B0D4F1, #DAEAF7, #E2BDE7, #BA68C8, #9D27B0, #683AB7</title>
-  <rect x="0" y="0" width="24" height="24" fill="#4BA6E0" stroke="#d0d7de"/>
-  <rect x="24" y="0" width="24" height="24" fill="#7FBFE9" stroke="#d0d7de"/>
-  <rect x="48" y="0" width="24" height="24" fill="#B0D4F1" stroke="#d0d7de"/>
-  <rect x="72" y="0" width="24" height="24" fill="#DAEAF7" stroke="#d0d7de"/>
-  <rect x="96" y="0" width="24" height="24" fill="#E2BDE7" stroke="#d0d7de"/>
-  <rect x="120" y="0" width="24" height="24" fill="#BA68C8" stroke="#d0d7de"/>
-  <rect x="144" y="0" width="24" height="24" fill="#9D27B0" stroke="#d0d7de"/>
-  <rect x="168" y="0" width="24" height="24" fill="#683AB7" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#4BA6E0"/>
+  <rect x="24" y="0" width="24" height="24" fill="#7FBFE9"/>
+  <rect x="48" y="0" width="24" height="24" fill="#B0D4F1"/>
+  <rect x="72" y="0" width="24" height="24" fill="#DAEAF7"/>
+  <rect x="96" y="0" width="24" height="24" fill="#E2BDE7"/>
+  <rect x="120" y="0" width="24" height="24" fill="#BA68C8"/>
+  <rect x="144" y="0" width="24" height="24" fill="#9D27B0"/>
+  <rect x="168" y="0" width="24" height="24" fill="#683AB7"/>
 </svg>

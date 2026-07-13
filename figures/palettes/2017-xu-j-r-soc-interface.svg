@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="24" viewBox="0 0 72 24" role="img" aria-labelledby="title">
   <title id="title">2017-Xu-J R Soc Interface color palette: #359C7D, #D15F2E, #6E72A6</title>
-  <rect x="0" y="0" width="24" height="24" fill="#359C7D" stroke="#d0d7de"/>
-  <rect x="24" y="0" width="24" height="24" fill="#D15F2E" stroke="#d0d7de"/>
-  <rect x="48" y="0" width="24" height="24" fill="#6E72A6" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#359C7D"/>
+  <rect x="24" y="0" width="24" height="24" fill="#D15F2E"/>
+  <rect x="48" y="0" width="24" height="24" fill="#6E72A6"/>
 </svg>

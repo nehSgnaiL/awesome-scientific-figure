@@ -28,7 +28,7 @@ function renderSvg(title, colors) {
   const height = swatchSize;
   const width = swatchSize * colors.length;
   const rectangles = colors.map((color, index) =>
-    `  <rect x="${index * swatchSize}" y="0" width="${swatchSize}" height="${swatchSize}" fill="${color}" stroke="#d0d7de"/>`,
+    `  <rect x="${index * swatchSize}" y="0" width="${swatchSize}" height="${swatchSize}" fill="${color}"/>`,
   ).join("\n");
 
   return [

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="120" height="24" viewBox="0 0 120 24" role="img" aria-labelledby="title">
   <title id="title">2019-Xu-CEUS color palette: #0098BD, #4BE3CE, #FEEDB0, #FEAC54, #D1374F</title>
-  <rect x="0" y="0" width="24" height="24" fill="#0098BD" stroke="#d0d7de"/>
-  <rect x="24" y="0" width="24" height="24" fill="#4BE3CE" stroke="#d0d7de"/>
-  <rect x="48" y="0" width="24" height="24" fill="#FEEDB0" stroke="#d0d7de"/>
-  <rect x="72" y="0" width="24" height="24" fill="#FEAC54" stroke="#d0d7de"/>
-  <rect x="96" y="0" width="24" height="24" fill="#D1374F" stroke="#d0d7de"/>
+  <rect x="0" y="0" width="24" height="24" fill="#0098BD"/>
+  <rect x="24" y="0" width="24" height="24" fill="#4BE3CE"/>
+  <rect x="48" y="0" width="24" height="24" fill="#FEEDB0"/>
+  <rect x="72" y="0" width="24" height="24" fill="#FEAC54"/>
+  <rect x="96" y="0" width="24" height="24" fill="#D1374F"/>
 </svg>
