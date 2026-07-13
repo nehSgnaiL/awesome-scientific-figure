@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 
 const root = path.resolve(import.meta.dirname, "..");
 const readmePath = path.join(root, "README.md");
@@ -63,8 +64,10 @@ const updated = original.replace(entryPattern, (entry, _whole, title) => {
   }
 
   const slug = slugify(title);
-  const filename = `${slug}.svg`;
-  palettes.set(filename, renderSvg(title, colors));
+  const svg = renderSvg(title, colors);
+  const contentHash = createHash("sha256").update(svg).digest("hex").slice(0, 8);
+  const filename = `${slug}-${contentHash}.svg`;
+  palettes.set(filename, svg);
 
   const width = colors.length * 24;
   const replacement = [
