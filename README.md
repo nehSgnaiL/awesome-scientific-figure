@@ -370,6 +370,22 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
+<h3> 2019-Xu-J R Soc Interface</h3>
+<img alt="Fig. 2" src="./figures/scatter/rsif20190536f02.png" width="1000">
+
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation (APA):** Xu, Y., Belyi, A., Santi, P., & Ratti, C. (2019). Quantifying segregation in an integrated urban physical-social space. *Journal of the Royal Society Interface*, 16(160), 20190536.
+
+**Link:** [[paper]](https://doi.org/10.1098/rsif.2019.0536)
+
+**Tag:** `distribution`
+
+</details>
+
+---
+
 <h3> 2025-Ibrahim-Fundam Res</h3>
 <img alt="Fig. 2" src="./figures/scatter/1-s2.0-S2667325825001943-gr2_lrg.jpg" width="1000">
 
