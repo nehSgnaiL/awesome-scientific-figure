@@ -9,6 +9,7 @@ const layout = fs.readFileSync(path.join(pagesDirectory, "_layouts", "default.ht
 const styles = fs.readFileSync(path.join(pagesDirectory, "assets", "css", "page.scss"), "utf8");
 const config = fs.readFileSync(path.join(pagesDirectory, "_config.yml"), "utf8");
 const workflow = fs.readFileSync(path.join(repositoryRoot, ".github", "workflows", "pages.yml"), "utf8");
+const generatedReadme = fs.readFileSync(path.join(sourceDirectory, "index.md"), "utf8");
 const errors = [];
 
 function requireMatch(source, pattern, message) {
@@ -48,8 +49,11 @@ for (const match of styles.matchAll(/--([\w-]+)\s*:/g)) {
 }
 
 requireMatch(config, /^baseurl:\s*\/awesome-scientific-figure\s*$/m, "Jekyll base URL must match the project page.");
+requireMatch(config, /^\s*path:\s*\/figures\/combination\/x3\.png\s*$/m, "SEO preview paths must be relative to the Pages base URL.");
 requireMatch(workflow, /node \.github\/pages\/build-source\.mjs/, "Pages workflow must prepare the isolated source directory.");
 requireMatch(workflow, /actions\/deploy-pages@v5/, "Pages workflow must deploy through the supported Pages action.");
+requireMatch(generatedReadme, /https:\/\/github\.com\/nehSgnaiL\/awesome-scientific-figure\/blob\/main\/CONTRIBUTING\.md/, "Repository source documents must link back to GitHub.");
+rejectMatch(generatedReadme, /\]\((?!#|https?:\/\/|mailto:|tel:)[^)]+\.(?:md|jsonc|ya?ml)\)/i, "Generated README pages must not retain relative links to repository source files.");
 
 for (const forbiddenRootPath of ["_config.yml", "_layouts"]) {
   if (fs.existsSync(path.join(repositoryRoot, forbiddenRootPath))) {
