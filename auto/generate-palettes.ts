@@ -45,10 +45,13 @@ function renderSvg(title: string, colors: string[]): string {
 const originalRaw = fs.readFileSync(readmePath, "utf8");
 const outputEol = originalRaw.includes("\r\n") ? "\r\n" : "\n";
 const original = originalRaw.replace(/\r\n/g, "\n");
-const entryPattern = /(^### ([^\r\n]+)[\s\S]*?)(?=^### |^## |(?![\s\S]))/gm;
+const entryPattern = /^[ \t]*(?:###\s+([^\r\n]+)|<h3(?:\s[^>]*)?>[ \t]*([^<\r\n]+?)[ \t]*<\/h3>)[ \t]*\r?\n[\s\S]*?(?=^[ \t]*(?:###\s+|<h3(?:\s[^>]*)?>|##\s+)|(?![\s\S]))/gmi;
 const palettes = new Map<string, string>();
+let entryCount = 0;
 
-const updated = original.replace(entryPattern, (entry, _whole, title) => {
+const updated = original.replace(entryPattern, (entry, markdownTitle, htmlTitle) => {
+  entryCount += 1;
+  const title = (markdownTitle ?? htmlTitle).trim();
   const colorStart = entry.indexOf("**Color:**");
   if (colorStart === -1) return entry;
 
@@ -83,6 +86,10 @@ const updated = original.replace(entryPattern, (entry, _whole, title) => {
 
   return entry.slice(0, colorStart) + replacement + entry.slice(detailsEnd);
 });
+
+if (entryCount === 0) {
+  throw new Error("No README entries found; expected headings using `###` or `<h3>...</h3>`. Refusing to modify palette assets.");
+}
 
 const expectedFiles = new Set(palettes.keys());
 const existingFiles = fs.existsSync(paletteDir)

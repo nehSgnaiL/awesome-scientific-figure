@@ -46,10 +46,11 @@ for (const pattern of imagePatterns) {
 
 if (readme.includes("placehold.co")) errors.push("Remote placehold.co color swatches remain in README.md.");
 
-const entryPattern = /^### ([^\r\n]+)([\s\S]*?)(?=^### |^## |(?![\s\S]))/gm;
+const entryPattern = /^[ \t]*(?:###\s+([^\r\n]+)|<h3(?:\s[^>]*)?>[ \t]*([^<\r\n]+?)[ \t]*<\/h3>)[ \t]*\r?\n([\s\S]*?)(?=^[ \t]*(?:###\s+|<h3(?:\s[^>]*)?>|##\s+)|(?![\s\S]))/gmi;
 let entryCount = 0;
 for (const match of readme.matchAll(entryPattern)) {
-  const [title, body] = [match[1], match[2]];
+  const title = (match[1] ?? match[2]).trim();
+  const body = match[3];
   entryCount += 1;
   if (!/^\d{4}-.+-.+$/.test(title)) warnings.push(`Non-standard entry heading: ${title}`);
   for (const [label, pattern] of [
@@ -61,6 +62,10 @@ for (const match of readme.matchAll(entryPattern)) {
   ]) {
     if (!pattern.test(body)) errors.push(`${title} is missing ${label} metadata.`);
   }
+}
+
+if (entryCount === 0) {
+  errors.push("No README entries found; expected headings using `###` or `<h3>...</h3>`.");
 }
 
 for (const relative of localImages) {

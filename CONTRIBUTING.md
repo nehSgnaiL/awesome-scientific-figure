@@ -4,6 +4,7 @@ Contributors only need to:
 
 - Edit `README.md` to add recommendation item.
 - Add the original figure file if needed.
+- Commit the changes with a conventional commit message.
 
 ## Specs
 
