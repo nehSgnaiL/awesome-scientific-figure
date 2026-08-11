@@ -11,9 +11,9 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
-  - auto/generate-palettes.ts
-  - auto/validate-readme.ts
-  - auto/validate-page-shell.ts
+  - build-source.mjs
+  - validate.mjs
+  - .build
 
 defaults:
   - scope:

@@ -69,15 +69,26 @@ shen-site-footer {
 }
 
 .markdown-body .repo-button-primary {
-  border-color: var(--repo-link);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: #ffffff !important;
-  background: var(--repo-link);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 122, 255, 0.9),
+    rgba(0, 122, 255, 0.7)
+  );
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
   font-weight: 600;
 }
 
 .markdown-body .repo-button-primary:hover {
-  color: var(--repo-link) !important;
-  background: var(--repo-bg);
+  color: #ffffff !important;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 122, 255, 1),
+    rgba(0, 122, 255, 0.8)
+  );
 }
 
 .markdown-body .repo-button:focus-visible {
