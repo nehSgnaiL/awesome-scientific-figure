@@ -28,6 +28,8 @@ rejectMatch(layout, /\b(?:iframe|postMessage|MessageEvent)\b|\/shared\/(?!site-s
 
 requireMatch(styles, /html\[data-theme="dark"\]/, "Styles must respond to the shared shell dark theme.");
 requireMatch(styles, /@media \(prefers-color-scheme: dark\)/, "Styles must retain a system dark-theme fallback.");
+requireMatch(styles, /html\[data-theme="dark"\][\s\S]*?--repo-surface:\s*#1c1c1eb3[\s\S]*?html:not\(\[data-theme\]\)[\s\S]*?--repo-surface:\s*#1c1c1eb3/, "Dark content surfaces must match the portfolio glass background.");
+requireMatch(styles, /body[\s\S]*?background:\s*var\(--repo-backdrop\),\s*var\(--repo-bg\)[\s\S]*?html\[data-theme="dark"\][\s\S]*?--repo-backdrop:\s*linear-gradient[\s\S]*?html:not\(\[data-theme\]\)[\s\S]*?--repo-backdrop:\s*linear-gradient/, "Dark page backgrounds must match the portfolio backdrop.");
 requireMatch(styles, /\.repo-button-primary[\s\S]*?linear-gradient\(/, "The primary repository action must retain the blue portfolio treatment.");
 requireMatch(styles, /\.repo-button[\s\S]*?backdrop-filter:\s*blur\(20px\) saturate\(180%\)/, "Repository actions must retain the portfolio glass treatment.");
 requireMatch(styles, /--repo-button-link:\s*#007aff/, "The secondary repository action must use the portfolio link color.");

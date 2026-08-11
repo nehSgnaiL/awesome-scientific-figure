@@ -6,6 +6,7 @@
 :root {
   color-scheme: light dark;
   --repo-bg: #f5f5f7;
+  --repo-backdrop: none;
   --repo-surface: #f6f8fa;
   --repo-text: #24292f;
   --repo-muted: #57606a;
@@ -25,7 +26,8 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--repo-text);
-  background: var(--repo-bg);
+  background: var(--repo-backdrop), var(--repo-bg);
+  background-attachment: fixed;
 }
 
 shen-site-header,
@@ -222,7 +224,13 @@ shen-site-header.site-header-ready {
 
 html[data-theme="dark"] {
   --repo-bg: #000000;
-  --repo-surface: #161b22;
+  --repo-backdrop: linear-gradient(
+    135deg,
+    rgba(15, 23, 42, 0.4) 0%,
+    rgba(30, 41, 59, 0.3) 50%,
+    rgba(15, 23, 42, 0.4) 100%
+  );
+  --repo-surface: #1c1c1eb3;
   --repo-text: #c9d1d9;
   --repo-muted: #8b949e;
   --repo-link: #58a6ff;
@@ -236,7 +244,13 @@ html[data-theme="dark"] {
 @media (prefers-color-scheme: dark) {
   html:not([data-theme]) {
     --repo-bg: #000000;
-    --repo-surface: #161b22;
+    --repo-backdrop: linear-gradient(
+      135deg,
+      rgba(15, 23, 42, 0.4) 0%,
+      rgba(30, 41, 59, 0.3) 50%,
+      rgba(15, 23, 42, 0.4) 100%
+    );
+    --repo-surface: #1c1c1eb3;
     --repo-text: #c9d1d9;
     --repo-muted: #8b949e;
     --repo-link: #58a6ff;
