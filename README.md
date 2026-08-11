@@ -1,4 +1,5 @@
-# Awesome Scientific Figure
+<h1> Awesome Scientific Figure</h1>
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls)
 [![Last Update](https://img.shields.io/github/last-commit/nehSgnaiL/awesome-scientific-figure?label=Last%20update&style=flat-square)](https://github.com/nehSgnaiL/awesome-scientific-figure)
 [![star](https://img.shields.io/github/stars/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/stargazers)
@@ -6,24 +7,27 @@
 
 A curated list of scientific figures in research papers.
 
-## Why Awesome Scientific Figures?
+<h2> Why Awesome Scientific Figures? </h2>
+
 Scientific figures are essential for communicating research, yet strong examples are scarce and hard to find. This collection gathers outstanding figures to:
 
 - **Learn visualization techniques** for presenting complex ideas
 - **Explore styles** across figure types and disciplinary practices
 - **Find inspiration** for papers, slides, and projects
 
-## Table of Contents
-- [Geographical map](#geographical-map)
+<h2> Table of Contents </h2>
+
+- [Geographical Map](#geographical-map)
 - [Combination Fig](#combination-fig)
-- [Scatter](#scatter)
 - [Boxplot](#boxplot)
-- [Other publications](#other-publications)
+- [Scatter](#scatter)
+- [Other Publications](#other-publications)
 - [Classical](#classical)
 
-## Geographical map
+## Geographical Map
 
-### 2021-Xu-Tour Manag
+<h3> 2021-Xu-Tour Manag </h3>
+
 <img alt="Fig. 11" src="./figures/geomap/1-s2.0-S0261517720301217-gr11_lrg.jpg" width="1000">
 
 <details>
@@ -43,7 +47,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2021-Xu-Ann AAG
+<h3> 2021-Xu-Ann AAG </h3>
 <img alt="Fig. 10" src="./figures/geomap/raag_a_1812372_f0010_c.jpeg" width="1000">
 
 <details>
@@ -63,7 +67,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2026-Peng-Nature Geoscience
+<h3> 2026-Peng-Nature Geoscience </h3>
 <img alt="Fig. 2" src="./figures/geomap/41561_2026_1992_Fig2_HTML.webp" width="1000">
 
 <details>
@@ -83,7 +87,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2019-Xu-CEUS
+<h3> 2019-Xu-CEUS </h3>
 <img alt="Fig. 2" src="./figures/geomap/1-s2.0-S0198971518305192-gr2_lrg.jpg" width="1000">
 
 <details>
@@ -105,7 +109,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ## Combination Fig
 
-### 2020-Gibbs-Nat Commun
+<h3> 2020-Gibbs-Nat Commun </h3>
 <img alt="Fig. 1" src="./figures/combination/41467_2020_18783_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -125,7 +129,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2022-Yabe-CEUS
+<h3> 2022-Yabe-CEUS </h3>
 <img alt="Fig. 3" src="./figures/combination/1-s2.0-S0198971522000217-gr3_lrg.jpg" width="1000">
 
 <details>
@@ -145,7 +149,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2022-Tegally-Science
+<h3> 2022-Tegally-Science </h3>
 <img alt="Fig. 1" src="./figures/combination/science.abq5358-f1.jpg" width="1000">
 <img alt="Fig. 4" src="./figures/combination/science.abq5358-f4.jpg" width="1000">
 
@@ -166,7 +170,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2019-Yin-Nature
+<h3> 2019-Yin-Nature </h3>
 <img alt="Fig. 1" src="./figures/combination/41586_2019_1725_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -186,7 +190,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2020-Alessandretti-Nature
+<h3> 2020-Alessandretti-Nature </h3>
 <img alt="Fig. 1" src="./figures/combination/41586_2020_2909_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -206,7 +210,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2022-Ren-Tour Manag
+<h3> 2022-Ren-Tour Manag </h3>
 <img alt="Fig. 1" src="./figures/combination/1-s2.0-S0261517722000462-gr1_lrg.jpg" width="1000">
 
 <details>
@@ -222,7 +226,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2025-Chen-Cities
+<h3> 2025-Chen-Cities </h3>
 <img alt="Fig. 9" src="./figures/combination/1-s2.0-S0264275125005426-gr9_lrg.jpg" width="1000">
 
 <details>
@@ -238,7 +242,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2025-Cui-NC
+<h3> 2025-Cui-NC </h3>
 <img alt="Fig. 1" src="./figures/combination/41467_2025_61979_Fig1_HTML.webp" width="1000">
 
 <details>
@@ -254,7 +258,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2026-Li-Nature
+<h3> 2026-Li-Nature</h3>
 <img alt="Fig. 3" src="./figures/combination/41586_2026_10260_Fig3_HTML.webp" width="1000">
 
 <details>
@@ -270,7 +274,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2026-Yang-Nat Comput Sci
+<h3> 2026-Yang-Nat Comput Sci</h3>
 <img alt="Fig. 3" src="./figures/combination/x3.png" width="1000">
 
 <details>
@@ -286,87 +290,9 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-## Scatter
-
-### 2010-Song-Nat Phys
-<img alt="Fig. 1" src="./figures/scatter/41567_2010_Article_BFnphys1760_Fig1_HTML.webp" width="1000">
-
-<details>
-<summary><b>Citation & Details</b></summary>
-
-**Citation (APA):** Song, C., Koren, T., Wang, P., & Barabási, A. L. (2010). Modelling the scaling properties of human mobility. *Nature Physics*, 6(10), 818-823.
-
-**Link:** [[paper]](https://doi.org/10.1038/nphys1760)
-
-**Tag:** `fit`
-
-</details>
-
----
-
-### 2009-Wang-Science
-<img alt="Fig. 4" src="./figures/scatter/324_1071_f4.jpeg" width="1000">
-
-<details>
-<summary><b>Citation & Details</b></summary>
-
-**Citation (APA):** Wang, P., González, M. C., Hidalgo, C. A., & Barabási, A. L. (2009). Understanding the spreading patterns of mobile phone viruses. *Science*, 324(5930), 1071-1076.
-
-**Link:** [[paper]](https://doi.org/10.1126/science.1167053)
-
-**Tag:** `fit`
-
-**Color:** `#375294` `#D93431` `#1F7E46`
-
-<!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2009-Wang-Science: #375294, #D93431, #1F7E46" src="./auto/palettes/2009-wang-science-999d0f75.svg" width="72" height="24">
-</details>
-
----
-
-### 2025-Ibrahim-Fundam Res
-<img alt="Fig. 2" src="./figures/scatter/1-s2.0-S2667325825001943-gr2_lrg.jpg" width="1000">
-
-<details>
-<summary><b>Citation & Details</b></summary>
-
-**Citation (APA):** Ibrahim, M. M., & Hou, E. (2025). Soil phosphorus regulates summer CO2 flux response to air temperature in nitrogen-poor northern permafrost ecosystems. *Fundamental Research*.
-
-**Link:** [[paper]](https://doi.org/10.1016/j.fmre.2025.04.005)
-
-**Tag:** `fit`
-
-**Color:** `#00CBD2` `#FFAA01`
-
-<!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2025-Ibrahim-Fundam Res: #00CBD2, #FFAA01" src="./auto/palettes/2025-ibrahim-fundam-res-e905a8dd.svg" width="48" height="24">
-</details>
-
----
-
-### 2026-Liang-Travel Behav Soc
-<img alt="Fig. 3" src="https://raw.githubusercontent.com/nehSgnaiL/GeoTopo-Net/refs/heads/main/img/Fig3.png" width="1000">
-
-<details>
-<summary><b>Citation & Details</b></summary>
-
-**Citation (APA):** Liang, S., Xu, Y., Li, G., Zhang, X., & Li, Q. (2026). Predicting short-term urban bike sharing demand in a coupled continuous and network space. *Travel Behaviour and Society*, 42, 101152.
-
-**Link:** [[paper]](https://doi.org/10.1016/j.tbs.2025.101152)
-
-**Tag:** `trend`
-
-**Color:** `#1DBDE6` `#F1515E`
-
-<!-- Palette asset and filename are generated; edit only the hex values above. -->
-<img alt="Color palette for 2026-Liang-Travel Behav Soc: #1DBDE6, #F1515E" src="./auto/palettes/2026-liang-travel-behav-soc-d56c4c18.svg" width="48" height="24">
-</details>
-
----
-
 ## Boxplot
 
-### 2022-Xu-CEUS
+<h3> 2022-Xu-CEUS</h3>
 <img alt="Fig. 5" src="./figures/boxplot/1-s2.0-S0198971521001605-gr5_lrg.jpg" width="1000">
 
 <details>
@@ -386,7 +312,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2022-Jin-Emerg Microbes Infect
+<h3> 2022-Jin-Emerg Microbes Infect</h3>
 <img alt="Fig. 2" src="./figures/boxplot/temi_a_2155251_f0002_oc.jpeg" width="1000">
 
 <details>
@@ -406,10 +332,87 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
+## Scatter
 
-## Other publications
+<h3>2010-Song-Nat Phys</h3>
+<img alt="Fig. 1" src="./figures/scatter/41567_2010_Article_BFnphys1760_Fig1_HTML.webp" width="1000">
 
-### 2019-Raval-FT
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation (APA):** Song, C., Koren, T., Wang, P., & Barabási, A. L. (2010). Modelling the scaling properties of human mobility. *Nature Physics*, 6(10), 818-823.
+
+**Link:** [[paper]](https://doi.org/10.1038/nphys1760)
+
+**Tag:** `fit`
+
+</details>
+
+---
+
+<h3>2009-Wang-Science</h3>
+<img alt="Fig. 4" src="./figures/scatter/324_1071_f4.jpeg" width="1000">
+
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation (APA):** Wang, P., González, M. C., Hidalgo, C. A., & Barabási, A. L. (2009). Understanding the spreading patterns of mobile phone viruses. *Science*, 324(5930), 1071-1076.
+
+**Link:** [[paper]](https://doi.org/10.1126/science.1167053)
+
+**Tag:** `fit`
+
+**Color:** `#375294` `#D93431` `#1F7E46`
+
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2009-Wang-Science: #375294, #D93431, #1F7E46" src="./auto/palettes/2009-wang-science-999d0f75.svg" width="72" height="24">
+</details>
+
+---
+
+<h3> 2025-Ibrahim-Fundam Res</h3>
+<img alt="Fig. 2" src="./figures/scatter/1-s2.0-S2667325825001943-gr2_lrg.jpg" width="1000">
+
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation (APA):** Ibrahim, M. M., & Hou, E. (2025). Soil phosphorus regulates summer CO2 flux response to air temperature in nitrogen-poor northern permafrost ecosystems. *Fundamental Research*.
+
+**Link:** [[paper]](https://doi.org/10.1016/j.fmre.2025.04.005)
+
+**Tag:** `fit`
+
+**Color:** `#00CBD2` `#FFAA01`
+
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2025-Ibrahim-Fundam Res: #00CBD2, #FFAA01" src="./auto/palettes/2025-ibrahim-fundam-res-e905a8dd.svg" width="48" height="24">
+</details>
+
+---
+
+<h3> 2026-Liang-Travel Behav Soc</h3>
+<img alt="Fig. 3" src="https://raw.githubusercontent.com/nehSgnaiL/GeoTopo-Net/refs/heads/main/img/Fig3.png" width="1000">
+
+<details>
+<summary><b>Citation & Details</b></summary>
+
+**Citation (APA):** Liang, S., Xu, Y., Li, G., Zhang, X., & Li, Q. (2026). Predicting short-term urban bike sharing demand in a coupled continuous and network space. *Travel Behaviour and Society*, 42, 101152.
+
+**Link:** [[paper]](https://doi.org/10.1016/j.tbs.2025.101152)
+
+**Tag:** `trend`
+
+**Color:** `#1DBDE6` `#F1515E`
+
+<!-- Palette asset and filename are generated; edit only the hex values above. -->
+<img alt="Color palette for 2026-Liang-Travel Behav Soc: #1DBDE6, #F1515E" src="./auto/palettes/2026-liang-travel-behav-soc-d56c4c18.svg" width="48" height="24">
+</details>
+
+---
+
+## Other Publications
+
+<h3> 2019-Raval-FT</h3>
 <img alt="Map showing carbon dioxide emissions by ships in 2015" src="./figures/others/http___com.ft.imagepublish.upp-prod-eu.s3.amazonaws.avif" width="1000">
 
 <details>
@@ -425,7 +428,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2024-News Media Organization-Economist
+<h3> 2024-News Media Organization-Economist</h3>
 <img alt="Map showing carbon dioxide emissions by ships in 2015" src="./figures/others/Qccfa.jpg" width="1000">
 
 <details>
@@ -441,7 +444,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2022-Max Roser-Our World in Data
+<h3> 2022-Max Roser-Our World in Data</h3>
 <img alt="humanity today and humanity's past" src="./figures/others/w=850.avif" width="1000">
 
 <details>
@@ -460,7 +463,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ## Classical
 
-### 2012-Fang-J Transp Geog
+<h3> 2012-Fang-J Transp Geog</h3>
 <img alt="Fig. 11" src="./figures/geomap/1-s2.0-S0966692312000816-gr11.jpg" width="1000">
 
 <details>
@@ -476,7 +479,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2015-Alexander-Transp Res
+<h3> 2015-Alexander-Transp Res</h3>
 <img alt="Fig. 9" src="./figures/geomap/1-s2.0-S0968090X1500073X-gr9.jpg" width="1000">
 
 <details>
@@ -492,7 +495,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2016-Jiang-PNAS
+<h3> 2016-Jiang-PNAS</h3>
 <img alt="Fig. 1" src="./figures/geomap/pnas.1524261113fig01.jpeg" width="1000">
 
 <details>
@@ -512,7 +515,7 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2017-Xu-J R Soc Interface
+<h3> 2017-Xu-J R Soc Interface</h3>
 <img alt="Fig. 5" src="./figures/combination/rsif20161041f05.jpg" width="1000">
 
 <details>
@@ -530,5 +533,6 @@ Scientific figures are essential for communicating research, yet strong examples
 <img alt="Color palette for 2017-Xu-J R Soc Interface: #359C7D, #D15F2E, #6E72A6" src="./auto/palettes/2017-xu-j-r-soc-interface-a1ac3ad0.svg" width="72" height="24">
 </details>
 
-## Contributing
+<h2> Contributing </h2>
+
 Pull requests are welcome. Please feel free to raise [pull requests](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls) to add new recommendations based on the [specs](CONTRIBUTING.md).
