@@ -4,8 +4,45 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      (() => {
+        document.documentElement.dataset.js = "true";
+        try {
+          const storedTheme = localStorage.getItem("theme");
+          if (storedTheme === "light" || storedTheme === "dark") {
+            document.documentElement.dataset.theme = storedTheme;
+            document.documentElement.dataset.themeMode = storedTheme;
+          } else {
+            delete document.documentElement.dataset.theme;
+            document.documentElement.dataset.themeMode = "system";
+          }
+        } catch {
+          // Keep the system theme when storage is unavailable.
+        }
+      })();
+    </script>
     <meta name="theme-color" content="#007aff" media="(prefers-color-scheme: light)" data-theme-color="light">
     <meta name="theme-color" content="#0a84ff" media="(prefers-color-scheme: dark)" data-theme-color="dark">
+    <script>
+      (() => {
+        const root = document.documentElement;
+        const syncThemeColors = () => {
+          const theme = root.dataset.theme;
+          document.querySelectorAll('meta[name="theme-color"][data-theme-color]').forEach((meta) => {
+            meta.media = theme
+              ? meta.dataset.themeColor === theme
+                ? "all"
+                : "not all"
+              : `(prefers-color-scheme: ${meta.dataset.themeColor})`;
+          });
+        };
+        syncThemeColors();
+        new MutationObserver(syncThemeColors).observe(root, {
+          attributes: true,
+          attributeFilter: ["data-theme"],
+        });
+      })();
+    </script>
     <meta name="referrer" content="strict-origin-when-cross-origin">
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/page.css?v=' | append: site.github.build_revision | relative_url }}">
