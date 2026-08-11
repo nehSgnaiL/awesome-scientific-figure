@@ -24,6 +24,8 @@ requireMatch(layout, /<shen-site-header><\/shen-site-header>/, "Layout is missin
 requireMatch(layout, /<shen-site-footer><\/shen-site-footer>/, "Layout is missing the shared footer.");
 requireMatch(layout, /'\/assets\/css\/page\.css\?v='/, "Layout must load the isolated Pages stylesheet.");
 requireMatch(layout, /customElements\.whenDefined\("shen-site-header"\)[\s\S]*?site-header-ready/, "Layout must release the stable header slot after the shared header loads.");
+requireMatch(layout, /name="theme-color" content="#007aff" media="\(prefers-color-scheme: light\)"[\s\S]*?name="theme-color" content="#0a84ff" media="\(prefers-color-scheme: dark\)"/, "Layout must match the portfolio mobile status-bar colors.");
+requireMatch(layout, /shadowRoot\?\.querySelector\("\[src\]"\)/, "Layout must observe the shared header frame instead of its style element.");
 rejectMatch(layout, /\b(?:iframe|postMessage|MessageEvent)\b|\/shared\/(?!site-shell\.js)/i, "Layout must not duplicate the shared shell.");
 
 requireMatch(styles, /html\[data-theme="dark"\]/, "Styles must respond to the shared shell dark theme.");

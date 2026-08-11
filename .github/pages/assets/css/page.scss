@@ -42,7 +42,6 @@ shen-site-header {
 }
 
 shen-site-header.site-header-ready {
-  height: auto;
   overflow: visible;
 }
 
@@ -298,7 +297,7 @@ html[data-theme="dark"] {
 }
 
 @media (max-width: 639px) {
-  shen-site-header:not(.site-header-ready) {
+  shen-site-header {
     height: 101px;
   }
 }

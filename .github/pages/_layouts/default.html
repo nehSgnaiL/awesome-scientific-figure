@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#007aff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0a84ff" media="(prefers-color-scheme: dark)">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/page.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -12,7 +14,7 @@
     <script>
       customElements.whenDefined("shen-site-header").then(() => {
         const header = document.querySelector("shen-site-header");
-        const frame = header?.shadowRoot?.firstElementChild;
+        const frame = header?.shadowRoot?.querySelector("[src]");
         const ready = () => {
           if (frame.contentDocument?.URL === "about:blank") return;
           frame.removeEventListener("load", ready);
