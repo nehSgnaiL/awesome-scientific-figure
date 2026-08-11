@@ -66,6 +66,17 @@
         };
         frame?.addEventListener("load", ready);
       });
+
+      window.addEventListener("pageshow", async (event) => {
+        if (!event.persisted) return;
+        await Promise.all(
+          ["shen-site-header", "shen-site-footer"].map((name) => customElements.whenDefined(name)),
+        );
+        document.querySelectorAll("shen-site-header, shen-site-footer").forEach((shell) => {
+          const frame = shell.shadowRoot?.querySelector("[src]");
+          if (frame) frame.src = frame.src;
+        });
+      });
     </script>
   </head>
   <body>
@@ -74,7 +85,7 @@
     <main class="container-lg px-3 my-4 markdown-body" id="content">
       <div class="repo-actions">
         <a class="repo-button" href="{{ site.url }}/project/">&larr; Back to Project</a>
-        <a class="repo-button repo-button-primary" href="{{ site.repository_url }}">GitHub Repository</a>
+        <a class="repo-button repo-button-primary" href="{{ site.repository_url }}" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
       </div>
       {{ content }}
     </main>
