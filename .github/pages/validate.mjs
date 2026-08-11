@@ -28,6 +28,9 @@ rejectMatch(layout, /\b(?:iframe|postMessage|MessageEvent)\b|\/shared\/(?!site-s
 requireMatch(styles, /html\[data-theme="dark"\]/, "Styles must respond to the shared shell dark theme.");
 requireMatch(styles, /@media \(prefers-color-scheme: dark\)/, "Styles must retain a system dark-theme fallback.");
 requireMatch(styles, /\.repo-button-primary[\s\S]*?linear-gradient\(/, "The primary repository action must retain the blue portfolio treatment.");
+requireMatch(styles, /\.repo-button[\s\S]*?backdrop-filter:\s*blur\(20px\) saturate\(180%\)/, "Repository actions must retain the portfolio glass treatment.");
+requireMatch(styles, /--repo-button-link:\s*#007aff/, "The secondary repository action must use the portfolio link color.");
+requireMatch(styles, /\.repo-button-primary:visited[\s\S]*?color:\s*#ffffff !important/, "The primary repository action must remain white after visiting.");
 requireMatch(styles, /@media \(max-width: 600px\)[\s\S]*?\.markdown-body \.repo-button[\s\S]*?flex:\s*0 0 auto/, "Mobile repository actions must stay fitted to their text.");
 for (const match of styles.matchAll(/--([\w-]+)\s*:/g)) {
   if (!match[1].startsWith("repo-")) errors.push("Page styles may define only repository-scoped custom properties.");
