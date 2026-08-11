@@ -23,6 +23,7 @@ requireMatch(layout, /<script src="\/shared\/site-shell\.js" defer><\/script>/, 
 requireMatch(layout, /<shen-site-header><\/shen-site-header>/, "Layout is missing the shared header.");
 requireMatch(layout, /<shen-site-footer><\/shen-site-footer>/, "Layout is missing the shared footer.");
 requireMatch(layout, /'\/assets\/css\/page\.css\?v='/, "Layout must load the isolated Pages stylesheet.");
+requireMatch(layout, /customElements\.whenDefined\("shen-site-header"\)[\s\S]*?site-header-ready/, "Layout must release the stable header slot after the shared header loads.");
 rejectMatch(layout, /\b(?:iframe|postMessage|MessageEvent)\b|\/shared\/(?!site-shell\.js)/i, "Layout must not duplicate the shared shell.");
 
 requireMatch(styles, /html\[data-theme="dark"\]/, "Styles must respond to the shared shell dark theme.");
@@ -32,6 +33,7 @@ requireMatch(styles, /\.repo-button[\s\S]*?backdrop-filter:\s*blur\(20px\) satur
 requireMatch(styles, /--repo-button-link:\s*#007aff/, "The secondary repository action must use the portfolio link color.");
 requireMatch(styles, /\.repo-button-primary:visited[\s\S]*?color:\s*#ffffff !important/, "The primary repository action must remain white after visiting.");
 requireMatch(styles, /@media \(max-width: 600px\)[\s\S]*?\.markdown-body \.repo-button[\s\S]*?flex:\s*0 0 auto/, "Mobile repository actions must stay fitted to their text.");
+requireMatch(styles, /shen-site-header[\s\S]*?height:\s*73px[\s\S]*?@media \(max-width: 639px\)[\s\S]*?height:\s*101px/, "Shared header space must stay stable while its iframe loads.");
 for (const match of styles.matchAll(/--([\w-]+)\s*:/g)) {
   if (!match[1].startsWith("repo-")) errors.push("Page styles may define only repository-scoped custom properties.");
 }

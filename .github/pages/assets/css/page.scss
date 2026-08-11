@@ -34,6 +34,16 @@ shen-site-footer {
   width: 100%;
 }
 
+shen-site-header {
+  height: 73px;
+  overflow: hidden;
+}
+
+shen-site-header.site-header-ready {
+  height: auto;
+  overflow: visible;
+}
+
 .markdown-body {
   box-sizing: border-box;
   width: 100%;
@@ -270,6 +280,12 @@ html[data-theme="dark"] {
 
   .markdown-body #table-of-contents + ul {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 639px) {
+  shen-site-header:not(.site-header-ready) {
+    height: 101px;
   }
 }
 
