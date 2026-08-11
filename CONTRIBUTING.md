@@ -19,10 +19,10 @@ Contributors only need to:
 Add the entry to the appropriate category in `README.md` using the following structure:
 
 ```markdown
-### 2026-Author-Journal
-<img alt="Fig. 1" src="./figures/category/example.jpg" width="1000">
+<h3>2026-Author-Journal</h3>
+<img alt="Fig. 1" src="./figures/category/example.jpg" width="1000" loading="lazy" decoding="async">
 
-<details>
+<details markdown="1">
 <summary><b>Citation & Details</b></summary>
 
 **Citation (APA):** Author, A. (2026). Paper title. *Journal*, volume, pages.

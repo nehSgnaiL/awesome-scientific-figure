@@ -1,0 +1,25 @@
+title: Awesome Scientific Figure
+description: A curated gallery of effective scientific figures from research papers.
+lang: en-US
+url: https://nehsgnail.github.io
+baseurl: /awesome-scientific-figure
+repository: nehSgnaiL/awesome-scientific-figure
+repository_url: https://github.com/nehSgnaiL/awesome-scientific-figure
+theme: jekyll-theme-primer
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - auto/generate-palettes.ts
+  - auto/validate-readme.ts
+  - auto/validate-page-shell.ts
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image:
+        path: /awesome-scientific-figure/figures/combination/x3.png
+        alt: Scientific figure gallery preview

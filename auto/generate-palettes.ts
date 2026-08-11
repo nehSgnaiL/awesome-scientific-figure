@@ -25,6 +25,16 @@ function escapeXml(value: string): string {
   return value.replace(/[&<>"']/g, (character) => entities[character]);
 }
 
+function deferImageLoading(tag: string): string {
+  const attributes: string[] = [];
+  if (!/\bloading=/.test(tag)) attributes.push('loading="lazy"');
+  if (!/\bdecoding=/.test(tag)) attributes.push('decoding="async"');
+  if (attributes.length === 0) return tag;
+
+  const closing = tag.endsWith("/>") ? "/>" : ">";
+  return `${tag.slice(0, -closing.length)} ${attributes.join(" ")}${closing}`;
+}
+
 function renderSvg(title: string, colors: string[]): string {
   const swatchSize = 24;
   const height = swatchSize;
@@ -52,15 +62,22 @@ let entryCount = 0;
 const updated = original.replace(entryPattern, (entry, markdownTitle, htmlTitle) => {
   entryCount += 1;
   const title = (markdownTitle ?? htmlTitle).trim();
-  const colorStart = entry.indexOf("**Color:**");
-  if (colorStart === -1) return entry;
+  const normalizedEntry = entry
+    .replace(
+      /^([ \t]*<h3(?:\s[^>]*)?>)[ \t]*([^<\r\n]+?)[ \t]*(<\/h3>)/i,
+      (_heading, opening, _currentTitle, closing) => `${opening}${title}${closing}`,
+    )
+    .replace(/<img\b[^>]*>/g, deferImageLoading)
+    .replace(/<details(?![^>]*\bmarkdown=)([^>]*)>/g, '<details markdown="1"$1>');
+  const colorStart = normalizedEntry.indexOf("**Color:**");
+  if (colorStart === -1) return normalizedEntry;
 
-  const detailsEnd = entry.indexOf("</details>", colorStart);
+  const detailsEnd = normalizedEntry.indexOf("</details>", colorStart);
   if (detailsEnd === -1) {
     throw new Error(`Color palette in "${title}" is outside a details block.`);
   }
 
-  const colorSection = entry.slice(colorStart, detailsEnd);
+  const colorSection = normalizedEntry.slice(colorStart, detailsEnd);
   const colors = [...colorSection.matchAll(/#[0-9a-fA-F]{6}\b/g)]
     .map((match) => match[0].toUpperCase())
     .filter((color, index, all) => all.indexOf(color) === index);
@@ -79,12 +96,11 @@ const updated = original.replace(entryPattern, (entry, markdownTitle, htmlTitle)
   const replacement = [
     `**Color:** ${colors.map((color) => `\`${color}\``).join(" ")}`,
     "",
-    "<!-- Palette asset and filename are generated; edit only the hex values above. -->",
-    `<img alt="Color palette for ${title}: ${colors.join(", ")}" src="./auto/palettes/${filename}" width="${width}" height="24">`,
+    `<img alt="Color palette for ${title}: ${colors.join(", ")}" src="./auto/palettes/${filename}" width="${width}" height="24" loading="lazy" decoding="async">`,
     "",
   ].join("\n");
 
-  return entry.slice(0, colorStart) + replacement + entry.slice(detailsEnd);
+  return normalizedEntry.slice(0, colorStart) + replacement + normalizedEntry.slice(detailsEnd);
 });
 
 if (entryCount === 0) {

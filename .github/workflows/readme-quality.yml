@@ -6,6 +6,8 @@ on:
       - "README.md"
       - "figures/**"
       - "auto/**"
+      - "_config.yml"
+      - "_layouts/**"
       - ".github/workflows/readme-quality.yml"
   push:
     branches:
@@ -15,6 +17,8 @@ on:
       - "README.md"
       - "figures/**"
       - "auto/**"
+      - "_config.yml"
+      - "_layouts/**"
       - ".github/workflows/readme-quality.yml"
   workflow_dispatch:
 
@@ -33,6 +37,8 @@ jobs:
         run: node auto/generate-palettes.ts
       - name: Validate the generated README and assets
         run: node auto/validate-readme.ts
+      - name: Validate the public page shell boundary
+        run: node auto/validate-page-shell.ts
 
   sync:
     if: github.event_name != 'pull_request'
@@ -48,6 +54,8 @@ jobs:
         run: node auto/generate-palettes.ts
       - name: Validate the generated README and assets
         run: node auto/validate-readme.ts
+      - name: Validate the public page shell boundary
+        run: node auto/validate-page-shell.ts
       - name: Commit generated palette changes
         shell: bash
         run: |

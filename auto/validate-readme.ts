@@ -44,7 +44,17 @@ for (const pattern of imagePatterns) {
   }
 }
 
+for (const match of readme.matchAll(/<img\b[^>]*>/g)) {
+  const tag = match[0];
+  if (!/\bloading="lazy"/.test(tag)) errors.push(`HTML image is missing loading="lazy": ${tag}`);
+  if (!/\bdecoding="async"/.test(tag)) errors.push(`HTML image is missing decoding="async": ${tag}`);
+}
+
 if (readme.includes("placehold.co")) errors.push("Remote placehold.co color swatches remain in README.md.");
+
+for (const match of readme.matchAll(/<details\b[^>]*>/g)) {
+  if (!/\bmarkdown="1"/.test(match[0])) errors.push(`Details block is missing markdown="1": ${match[0]}`);
+}
 
 const entryPattern = /^[ \t]*(?:###\s+([^\r\n]+)|<h3(?:\s[^>]*)?>[ \t]*([^<\r\n]+?)[ \t]*<\/h3>)[ \t]*\r?\n([\s\S]*?)(?=^[ \t]*(?:###\s+|<h3(?:\s[^>]*)?>|##\s+)|(?![\s\S]))/gmi;
 let entryCount = 0;
@@ -55,7 +65,7 @@ for (const match of readme.matchAll(entryPattern)) {
   if (!/^\d{4}-.+-.+$/.test(title)) warnings.push(`Non-standard entry heading: ${title}`);
   for (const [label, pattern] of [
     ["figure", /<img\b/],
-    ["details", /<details>/],
+    ["details", /<details\b[^>]*>/],
     ["citation", /\*\*Citation(?: \(APA\))?:\*\*/],
     ["link", /\*\*Link:\*\*/],
     ["tag", /\*\*Tag:\*\*/],
