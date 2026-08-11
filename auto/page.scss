@@ -5,7 +5,7 @@
 
 :root {
   color-scheme: light dark;
-  --repo-bg: #ffffff;
+  --repo-bg: #f5f5f7;
   --repo-surface: #f6f8fa;
   --repo-text: #24292f;
   --repo-muted: #57606a;
@@ -52,14 +52,15 @@ shen-site-footer {
 .markdown-body .repo-button {
   display: inline-flex;
   box-sizing: border-box;
-  min-height: 40px;
-  padding: 0 16px;
+  padding: 8px 16px;
   align-items: center;
   border: 1px solid var(--repo-border);
   border-radius: 16px;
   color: var(--repo-link);
   background: var(--repo-surface);
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
   text-decoration: none !important;
 }
 
@@ -71,6 +72,7 @@ shen-site-footer {
   border-color: var(--repo-link);
   color: #ffffff !important;
   background: var(--repo-link);
+  font-weight: 600;
 }
 
 .markdown-body .repo-button-primary:hover {
@@ -172,7 +174,7 @@ shen-site-footer {
 }
 
 html[data-theme="dark"] {
-  --repo-bg: #0d1117;
+  --repo-bg: #000000;
   --repo-surface: #161b22;
   --repo-text: #c9d1d9;
   --repo-muted: #8b949e;
@@ -182,7 +184,7 @@ html[data-theme="dark"] {
 
 @media (prefers-color-scheme: dark) {
   html:not([data-theme]) {
-    --repo-bg: #0d1117;
+    --repo-bg: #000000;
     --repo-surface: #161b22;
     --repo-text: #c9d1d9;
     --repo-muted: #8b949e;
@@ -199,7 +201,7 @@ html[data-theme="dark"] {
   .repo-button {
     flex: 1 1 0;
     justify-content: center;
-    padding: 0 12px;
+    padding: 8px 12px;
     text-align: center;
   }
 
