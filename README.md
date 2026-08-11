@@ -270,15 +270,15 @@ Scientific figures are essential for communicating research, yet strong examples
 
 ---
 
-### 2026-Yang-arXiv
+### 2026-Yang-Nat Comput Sci
 <img alt="Fig. 3" src="./figures/combination/x3.png" width="1000">
 
 <details>
 <summary><b>Citation & Details</b></summary>
 
-**Citation (APA):** Yang, J., Huang, S., Huang, Z., Jin, Y., Yang, X., Gonzalez, M. C., & Xu, Y. (2026). Transferable Human Mobility Network Reconstruction with neuroGravity. https://arxiv.org/abs/2604.23678
+**Citation (APA):** Yang, J., Huang, S., Huang, Z., Jin, Y., Yang, X., González, M. C., & Xu, Y. (2026). Transferable human mobility network reconstruction with neuroGravity. *Nature Computational Science*, 6(6), 630-641.
 
-**Link:** [[paper]](https://arxiv.org/abs/2604.23678v1)
+**Link:** [[paper]](https://doi.org/10.1038/s43588-026-01003-y)
 
 **Tag:** `distribution`
 
