@@ -1,13 +1,9 @@
-<h1> Awesome Scientific Figure</h1>
+<h2> Why Awesome Scientific Figures? </h2>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/nehSgnaiL/awesome-scientific-figure/pulls)
 [![Last Update](https://img.shields.io/github/last-commit/nehSgnaiL/awesome-scientific-figure?label=Last%20update&style=flat-square)](https://github.com/nehSgnaiL/awesome-scientific-figure)
 [![star](https://img.shields.io/github/stars/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/stargazers)
 [![fork](https://img.shields.io/github/forks/nehSgnaiL/awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure/network/members) 
-
-A curated list of scientific figures in research papers.
-
-<h2> Why Awesome Scientific Figures? </h2>
 
 Scientific figures are essential for communicating research, yet strong examples are scarce and hard to find. This collection gathers outstanding figures to:
 
