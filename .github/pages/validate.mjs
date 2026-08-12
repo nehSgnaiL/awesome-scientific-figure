@@ -43,7 +43,7 @@ requireMatch(styles, /--repo-button-link:\s*#007aff/, "The secondary repository 
 requireMatch(styles, /\.repo-button-primary:visited[\s\S]*?color:\s*#ffffff !important/, "The primary repository action must remain white after visiting.");
 requireMatch(styles, /@media \(max-width: 600px\)[\s\S]*?\.markdown-body \.repo-button[\s\S]*?flex:\s*0 0 auto/, "Mobile repository actions must stay fitted to their text.");
 requireMatch(styles, /shen-site-header[\s\S]*?height:\s*73px[\s\S]*?@media \(max-width: 639px\)[\s\S]*?height:\s*101px/, "Shared header space must stay stable while its iframe loads.");
-requireMatch(styles, /html\s*\{[\s\S]*?background-color:\s*var\(--repo-bg\)[\s\S]*?shen-site-header\s*\{[\s\S]*?position:\s*sticky[\s\S]*?top:\s*0[\s\S]*?background-color:\s*var\(--repo-bg\)/, "The root canvas and sticky header must expose the active theme background to the iOS system status bar.");
+requireMatch(styles, /html\s*\{[^}]*background-color:\s*var\(--repo-bg\)[^}]*\}[\s\S]*?shen-site-header\s*\{[^}]*position:\s*sticky[^}]*top:\s*0[^}]*background:\s*transparent[^}]*\}/, "The root canvas must tint the iOS system bar without covering the sticky header glass.");
 for (const match of styles.matchAll(/--([\w-]+)\s*:/g)) {
   if (!match[1].startsWith("repo-")) errors.push("Page styles may define only repository-scoped custom properties.");
 }
